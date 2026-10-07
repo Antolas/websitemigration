@@ -1,0 +1,39 @@
+{
+  "name": "platmosphere",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Platmosphere conference website – Next.js static site with content as code",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "validate:content": "node scripts/validate-content.mjs"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@lottiefiles/react-lottie-player": "^3.5.4",
+    "@mui/material": "^5.18.0",
+    "@mui/material-nextjs": "^5.18.0",
+    "lottie-react": "^2.4.1",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-infinite-scroll-component": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.35",
+    "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "lottie-web": "5.12.2"
+  }
+}

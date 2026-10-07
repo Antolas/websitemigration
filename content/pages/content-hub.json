@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "eyebrow": " PLATMOSPHERE CONTENT HUB",
+    "title": "Relive the Energy",
+    "subtitle": [
+      "Explore all our session recordings,",
+      " presentations, and key insights."
+    ]
+  },
+  "filters": [
+    {
+      "name": "Track",
+      "options": [
+        "Keynote",
+        "Business",
+        "Tech",
+        "Stories",
+        "Labs"
+      ]
+    },
+    {
+      "name": "Industry",
+      "options": [
+        "Financial Services",
+        "Healthcare",
+        "Data",
+        "Mobility",
+        "Retail",
+        "Energy & Utilities",
+        "Telco"
+      ]
+    },
+    {
+      "name": "Topic",
+      "options": [
+        "AI",
+        "Platform Engineering",
+        "Vibe Engineering",
+        "Payment",
+        "AI Ready Architecture",
+        "Agentic Engineering",
+        "Trusted AI",
+        "Data",
+        "AI Orchestration",
+        "Digital Transformation",
+        "Composability"
+      ]
+    },
+    {
+      "name": "Talk Format",
+      "options": [
+        "Plenary Session",
+        "Round Table",
+        "Talk",
+        "Live Demo",
+        "Live Coding",
+        "Lightning Talk",
+        "Case Study"
+      ]
+    },
+    {
+      "name": "Edition",
+      "options": [
+        "2026",
+        "2025"
+      ]
+    }
+  ],
+  "callForPapers": {
+    "url": "https://player.vimeo.com/video/1195989452?h=d7efc9c864"
+  }
+}

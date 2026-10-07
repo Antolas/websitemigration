@@ -1,0 +1,33 @@
+{
+  "navigation": [
+    {
+      "identifier": "navbar-1",
+      "text": "About",
+      "link": "/about",
+      "type": "navigate"
+    },
+    {
+      "identifier": "navbar-2",
+      "text": "Speakers",
+      "link": "/speakers",
+      "type": "navigate"
+    },
+    {
+      "identifier": "navbar-3",
+      "text": "Content Hub",
+      "link": "/content-hub",
+      "type": "navigate"
+    },
+    {
+      "identifier": "navbar-right",
+      "text": "Get in Touch",
+      "link": "/join-us",
+      "type": "navigate"
+    }
+  ],
+  "banner": {
+    "text": "2026 Sessions Are Now Available Online! ",
+    "buttonText": "Check it Out",
+    "linkButton": "/content-hub"
+  }
+}

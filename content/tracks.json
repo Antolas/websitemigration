@@ -1,0 +1,32 @@
+[
+  {
+    "id": "67c1bd15b3efaa4f044be3df",
+    "title": "Keynote",
+    "textColor": "#00202B",
+    "backgroundColor": "#CAFDE1"
+  },
+  {
+    "id": "67c1bd29b3efaa4f044be3e0",
+    "title": "Business",
+    "textColor": "#002F5A",
+    "backgroundColor": "#8EC7FF"
+  },
+  {
+    "id": "67c1bd3db3efaa4f044be3e1",
+    "title": "Stories",
+    "textColor": "#002F5A",
+    "backgroundColor": "#D2C4F4"
+  },
+  {
+    "id": "67c1bd4ba83742d992658dea",
+    "title": "Tech",
+    "textColor": "#22144F",
+    "backgroundColor": "#FDE6F1"
+  },
+  {
+    "id": "67c1bd55a83742d992658deb",
+    "title": "Labs",
+    "textColor": "#22144F",
+    "backgroundColor": "#FDE6F1"
+  }
+]

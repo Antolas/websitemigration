@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "eyebrow": "THANK YOU FOR JOINING",
+    "date": "26th MAY 2026  · ",
+    "location": " Milan, Talent Garden Calabiana",
+    "tagline": "See you in 2027!",
+    "cta": {
+      "label": "Get Updates",
+      "href": "/join-us"
+    }
+  },
+  "numbersTitle": [
+    "The In-Person Conference ",
+    "for Platform Enthusiasts"
+  ],
+  "numbers": [
+    {
+      "value": 450,
+      "suffix": "+",
+      "label": "Attendees"
+    },
+    {
+      "value": 4,
+      "suffix": "",
+      "label": "Stages"
+    },
+    {
+      "value": 40,
+      "suffix": "+",
+      "label": "Speakers"
+    },
+    {
+      "value": 30,
+      "suffix": "+",
+      "label": "Hours of Talks"
+    }
+  ],
+  "keywords": [
+    "AI-NATIVE DEVX",
+    "ENGINEERING AGENTS",
+    "VIBE CODING",
+    "DEVELOPER PLATFORMS",
+    "COMPOSABILITY",
+    "REAL-TIME DATA",
+    "COMPLIANCE",
+    "FUTURE OF DEVELOPMENT"
+  ],
+  "keywordsRepeat": 5,
+  "chapter": {
+    "eyebrow": "CHAPTER 2026",
+    "title": "Master the Vibe",
+    "paragraphs": [
+      "Over 500 innovators joined forces <TextHighlighted>to define the human-centric era </TextHighlighted>of platforms.",
+      "One full day of visionary talks, success stories, and deep dives into <TextHighlighted>the future of Platform Engineering and the rise of AI-driven developer experiences.</TextHighlighted>"
+    ]
+  },
+  "video": {
+    "title": "Feel the Platmosphere",
+    "embedUrl": "https://player.vimeo.com/video/1195989452?h=d7efc9c864",
+    "recapLabel": "Watch 2026 video recap",
+    "recapUrl": "https://youtu.be/klkoXmoybO8"
+  },
+  "gallery": {
+    "title": [
+      "The Community of ",
+      " Platform Leaders"
+    ],
+    "buttonLabel": "Gallery 2026",
+    "image": "/media/586a54cd-11bb-4acd-bc95-b24af2832e4c.png"
+  },
+  "speakers": {
+    "title": [
+      " Hear from the ",
+      " Brightest Minds"
+    ],
+    "featuredSpeakerIds": [
+      "69f858b371e900fd45024f5b",
+      "69f1c458a8a43379c17d920e",
+      "69ea2cce6c11a3c6908a85b8",
+      "69e63ce565d7ccfd23a7b7ec",
+      "6995c0c342b9f1a9c3bb8969",
+      "69f30bf41dc2f2bf396f51ee",
+      "69e1fdd87e55d08c6b6b5fec",
+      "69fa06d8e5c0464d46562a40"
+    ]
+  },
+  "darkBanner": {
+    "eyebrow": "GET READY FOR PLATMOSPHERE 2027",
+    "title": [
+      "Join the Platmosphere ",
+      "Community"
+    ],
+    "subtitle": "Stay connected with insights, resources, and news about the future of Platforms",
+    "cta": {
+      "label": "Sign up",
+      "href": "/join-us"
+    }
+  }
+}

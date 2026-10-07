@@ -1,0 +1,77 @@
+{
+  "keywords": [
+    "40+ speakers.",
+    "4 tracks.",
+    "Full-day hands-on labs."
+  ],
+  "intro": [
+    "AI is changing how we build. ",
+    "Platmosphere is where enterprise teams learn to move at AI speed without losing control."
+  ],
+  "benefits": [
+    "For IT leaders, engineering professionals & digital business executives",
+    "Connect with 500+ peers who speak your language",
+    "Attendance is free. Secure your spot in under a minute."
+  ],
+  "reasonsTitle": "Four reasons to be in the room:",
+  "reasons": [
+    {
+      "title": "Learn what works.",
+      "text": " Real patterns from teams already shipping AI-native workflows in production, and from those just getting started."
+    },
+    {
+      "title": "Compare with peers.",
+      "text": " Benchmark your approach against organizations at the same inflection point, without the filter of a vendor stage."
+    },
+    {
+      "title": "Bring home reference designs.",
+      "text": " Architectures and playbooks that win buy-in from developers who want speed and leaders who need proof."
+    },
+    {
+      "title": "Go hands-on.",
+      "text": " From concept to working prototype before you leave the building."
+    }
+  ],
+  "sponsorsTitle": "Supported by organizations shaping the future of software delivery.",
+  "sponsorGroups": [
+    {
+      "title": null,
+      "logos": [
+        {
+          "name": "EY",
+          "logo": "/media/e1b0a5df-67ff-42a8-a084-ceecc6639d25.png"
+        },
+        {
+          "name": "Bowman",
+          "logo": "/media/7124caa0-f5f6-41d3-9252-2059cd912b05.png"
+        },
+        {
+          "name": "Orbyta",
+          "logo": "/media/620178a7-ca0e-42ab-9670-59b1589acdd4.svg"
+        },
+        {
+          "name": "Evoila",
+          "logo": "/media/73e864de-48f2-4c27-b360-75789f9a6b7b.png"
+        },
+        {
+          "name": "OVH",
+          "logo": "/media/77fc53b6-208c-4318-a70e-0b03dbf7b348.svg"
+        }
+      ]
+    },
+    {
+      "title": "PATRONAGE",
+      "logos": [
+        {
+          "name": "Milano",
+          "logo": "/media/e953a43f-fbf3-490d-8d1d-50c2a58ad3e5.svg"
+        },
+        {
+          "name": "Politecnico",
+          "logo": "/media/83fd179a-6b85-419d-8d1a-26c3b8fbd91d.jpg"
+        }
+      ]
+    }
+  ],
+  "hubspotFormId": "b32ef3d2-d00c-429f-a8cd-077e015f90e3"
+}

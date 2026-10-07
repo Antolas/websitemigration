@@ -1,0 +1,72 @@
+'use client';
+
+import { styled } from '@mui/material/styles';
+
+export const HomeSponsorsStyled = styled('div')(({ theme }) => ({
+  display: 'flex',
+  background: theme.palette.grey[50],
+  color: theme.palette.grey[900],
+  padding: '80px 0px 80px 0px',
+  justifyContent: 'center',
+  [theme.breakpoints.down('md')]: { flexDirection: 'column', gap: '16px', padding: '64px 16px 64px 16px' },
+  '.meet-sponsors-container': {
+    maxWidth: '1176px',
+    display: 'flex',
+    gap: '96px',
+    [theme.breakpoints.down('md')]: { flexDirection: 'column', gap: '64px' },
+  },
+  '.title-sponsors': {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '32px',
+    textAlign: 'start',
+    width: '50%',
+    [theme.breakpoints.down('md')]: { width: 'auto', textAlign: 'center', gap: '8px' },
+  },
+  '.subtitle-sponsors': { color: theme.palette.grey[600] },
+  '.sponsors-logos-container': {
+    maxWidth: '1176px',
+    width: '50%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    [theme.breakpoints.down('md')]: { width: 'auto', justifyContent: 'center' },
+  },
+  '.sponsors-logos-title': {
+    display: 'flex',
+    gap: '24px',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    [theme.breakpoints.down('md')]: { gap: '8px' },
+    flexDirection: 'column',
+    textAlign: 'center',
+    alignSelf: 'center',
+  },
+  '.sponsors-logos-big': {
+    display: 'flex',
+    width: '1200px',
+    gap: '24px',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    [theme.breakpoints.down('md')]: { gap: '8px', maxWidth: '376px' },
+    alignSelf: 'center',
+    '& > div': { width: '376px !important', height: '128px !important', '& img': { height: '112px !important' } },
+  },
+  '.sponsors-logos-standard': {
+    display: 'flex',
+    maxWidth: '376px',
+    gap: '24px',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    [theme.breakpoints.down('md')]: { gap: '8px' },
+    alignSelf: 'center',
+    '& > div': {
+      width: '176px !important',
+      height: '60px !important',
+      [theme.breakpoints.down('md')]: { width: '176px !important', height: '60px !important' },
+      '& img': { height: 'auto !important', maxWidth: '90%', maxHeight: '90%' },
+    },
+  },
+  '.sponsors-groups': { display: 'flex', flexDirection: 'column', gap: '56px' },
+  '.sponsor-group': { display: 'flex', flexDirection: 'column', gap: '24px', textAlign: 'center', color: theme.palette.grey[600] },
+}));

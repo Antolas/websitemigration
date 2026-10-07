@@ -1,0 +1,2444 @@
+[
+  {
+    "id": "6a33f2ec96284ec711f0763c",
+    "readablePathId": "master-the-vibe-keynote",
+    "title": "Opening Keynote",
+    "subtitle": "Master The Vibe",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      },
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/13185899-678c-433a-9556-1118d8bcfb18.png",
+    "videoURL": "kIN9rf-vWvg",
+    "slideURL": "https://eu1.hubs.ly/H0ws4m_0",
+    "speakers": [
+      {
+        "speakerId": "6735de76ba43c4fec5bdbf7d",
+        "position": 1
+      },
+      {
+        "speakerId": "6735de49ba43c4fec5bdbf7b",
+        "position": 2
+      },
+      {
+        "speakerId": "6735dba2ba43c4fec5bdbf67",
+        "position": 3
+      }
+    ],
+    "description": "As the AI revolution and the 'SaaSpocalypse' reshape the landscape, legacy systems are naturally reaching their limits. We are moving toward Vibe Engineering, where technology is most effective when grounded in context. To ensure productivity remains sustainable amidst new data and regulatory demands, we need a clear, integrated strategy. Transitioning to a Modern IDP allows us to harmonize human expertise and AI within a single workflow. This isn’t just a technical shift, but a cultural evolution—one where we refine our processes and empower our people to truly Master the Vibe."
+  },
+  {
+    "id": "6a3a589796284ec711f0766c",
+    "readablePathId": "key-takeaways",
+    "title": "Key Takeaways & Insights",
+    "subtitle": "Wrapping Up Platmosphere 2026!",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      },
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/230ef5ff-aa01-477c-8c90-a14d30686fa3.png",
+    "videoURL": "KNXrMfvJgsY",
+    "slideURL": "https://eu1.hubs.ly/H0ws4VY0",
+    "speakers": [
+      {
+        "speakerId": "6a392d1196284ec711f07652",
+        "position": 1
+      },
+      {
+        "speakerId": "67bf44517e341a73b74f067c",
+        "position": 2
+      },
+      {
+        "speakerId": "67c0288da83742d992658ddb",
+        "position": 3
+      },
+      {
+        "speakerId": "67c0418fb3efaa4f044be3da",
+        "position": 4
+      },
+      {
+        "speakerId": "6735de76ba43c4fec5bdbf7d",
+        "position": 5
+      }
+    ],
+    "description": "As Platmosphere 2026 comes to a close, let's recap key insights from the event, celebrate the connections made, and look ahead to the future of platform innovation!"
+  },
+  {
+    "id": "6a3a609467e52b83f218defa",
+    "readablePathId": "welcome-2026",
+    "title": "Welcome to Platmosphere 2026",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      },
+      {
+        "label": "Vibe Engineering",
+        "value": "6a329db19f0d579450847df5"
+      }
+    ],
+    "photo": "/media/75cc8881-76d9-4c4c-9334-816a5f9ed17e.png",
+    "videoURL": "lcVu_OAiS4k",
+    "slideURL": "https://eu1.hubs.ly/H0ws2YC0",
+    "speakers": [
+      {
+        "speakerId": "6a392d1196284ec711f07652",
+        "position": 1
+      },
+      {
+        "speakerId": "67bf44517e341a73b74f067c",
+        "position": 2
+      },
+      {
+        "speakerId": "67c0288da83742d992658ddb",
+        "position": 3
+      },
+      {
+        "speakerId": "67c0418fb3efaa4f044be3da",
+        "position": 4
+      },
+      {
+        "speakerId": "6a3a62c667e52b83f218defe",
+        "position": 5
+      }
+    ],
+    "description": "Kickstart your Platmosphere experience with our opening welcome talk! Join us as we set the stage for an exciting event ahead, sharing key insights, highlights, and what to expect throughout the day."
+  },
+  {
+    "id": "6a3a7dd467e52b83f218df00",
+    "readablePathId": "future-banking-ai-digital-roundtable",
+    "title": "The Future of Banking",
+    "subtitle": "How Agentic AI & Ecosystem Orchestration are Reshaping Financial Services",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Round Table",
+        "value": "685bf240b8fe3b7d36512d5a"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Payment",
+        "value": "6a329dd49f0d579450847df7"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/818b31e2-016f-4a1e-a577-e71da9208065.png",
+    "videoURL": "aWjyIKj4rM8",
+    "slideURL": "https://eu1.hubs.ly/H0wqJF80",
+    "speakers": [
+      {
+        "speakerId": "6a38f86196284ec711f0764b",
+        "position": 1
+      },
+      {
+        "speakerId": "6735e23bba43c4fec5bdbf9d",
+        "position": 3
+      },
+      {
+        "speakerId": "6a38f88f67e52b83f218dee0",
+        "position": 2
+      },
+      {
+        "speakerId": "6a38f90c96284ec711f0764e",
+        "position": 4
+      },
+      {
+        "speakerId": "6735dd27ba43c4fec5bdbf71",
+        "position": 5
+      },
+      {
+        "speakerId": "67f3a6be9ac283172d0d9576",
+        "position": 6
+      },
+      {
+        "speakerId": "6a38f99167e52b83f218dee5",
+        "position": 7
+      }
+    ],
+    "description": "The financial services industry is undergoing a profound transformation, driven by the shift toward agentic AI and complex ecosystem orchestration. Moving beyond basic automation to autonomous workflows and seamless cross-platform management, innovation is redefining how banks operate and interact with customers. This round table will bring together industry leaders to explore the key trends shaping the future of banking, the role of fintech collaborations, and the challenges of navigating new regulations such as DORA and the AI Act. Join us to discuss the strategies and technologies that will define the next era of financial services while balancing security, compliance, and user experience in an orchestrated digital world."
+  },
+  {
+    "id": "6a3a808d67e52b83f218df02",
+    "readablePathId": "addressing-challenges-imid",
+    "title": "Addressing the Challenges of Imids by the First Time Right I-mart Transcriptomic Platform",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Healthcare",
+        "value": "685bbfb8b8fe3b7d36512d4b"
+      }
+    ],
+    "photo": "/media/e6ff7c9f-818e-4678-8ca5-1a247a71ee25.png",
+    "videoURL": "w7Rp_4RtQlQ",
+    "slideURL": "https://eu1.hubs.ly/H0wqBQM0",
+    "speakers": [
+      {
+        "speakerId": "6a38f7cd96284ec711f07648",
+        "position": 1
+      },
+      {
+        "speakerId": "6a38f81067e52b83f218dedf",
+        "position": 2
+      }
+    ],
+    "description": "Developing Software as a Medical Device (SaMD) for Immune-Mediated Inflammatory Diseases requires a robust, compliant technical foundation. This session explores how First Time Right DX (FTR DX) accelerated the launch of their I-Mart platform by building directly on Mia-Care’s specialized infrastructure.  Co-founder Andrea Fiumicelli will share how FTR DX innovates the market by unifying physicians, labs, and bioinformaticians into a seamless, SaMD-compliant workflow. We detail the transition from manual biopsy interpretation to an automated system for longitudinal disease tracking and AI-enhanced decision support. Attendees will learn how I-Mart orchestrates the diagnostic lifecycle—from kit scanning to data analysis—on a natively hosted infrastructure. Discover how this partnership allows innovators to focus on clinical excellence while Mia-Care manages the complexities of scale and regulatory compliance."
+  },
+  {
+    "id": "6a3bd53d96284ec711f0766f",
+    "readablePathId": "from-care-pathways-clinical-platforms",
+    "title": "From Care Pathways to Clinical Platforms",
+    "subtitle": "Building a Scalable Foundation for Data-Driven Healthcare and Future SaMD Modules",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      },
+      {
+        "label": "Vibe Engineering",
+        "value": "6a329db19f0d579450847df5"
+      },
+      {
+        "label": "AI Ready Architecture",
+        "value": "6a329da19f0d579450847df4"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Healthcare",
+        "value": "685bbfb8b8fe3b7d36512d4b"
+      }
+    ],
+    "photo": "/media/0e909ab7-7912-4558-858b-184413112e96.png",
+    "videoURL": "NCzo2PvPSEA",
+    "slideURL": "https://eu1.hubs.ly/H0wqz1f0",
+    "speakers": [
+      {
+        "speakerId": "6a38f48296284ec711f0763f",
+        "position": 1
+      }
+    ],
+    "description": "Healthcare delivery for chronic and complex conditions remains hindered by fragmented tools, duplicated data entry, and limited coordination across professionals and settings. Jua Pro is a clinical coordination platform enabling integrated, interoperable, and workflow-driven care pathways. It provides healthcare teams with a unified environment to access longitudinal patient data, collaborate in real time, automate administrative tasks, and orchestrate care processes across hospital and community settings. Rather than starting as a medical device, Jua adopts a modular, progressive approach: separating core platform capabilities from future regulated functionalities. This allows rapid deployment of high-value features while preparing a clear roadmap toward the certification of selected modules as Class I and Class IIa Software as a Medical Device (SaMD). This approach is supported by Mia-Care’s platform, which provides a compliant-by-design technical foundation. By leveraging Mia-Care, Jua has been able to accelerate early development and structure its architecture to meet future regulatory requirements without slowing down product iteration. This talk will explore how a platform-first, modular strategy enables faster innovation cycles while maintaining a clear path toward regulatory compliance, and how this paradigm can help bridge the gap between digital health tools and certified medical-grade software."
+  },
+  {
+    "id": "6a3bd57e67e52b83f218df09",
+    "readablePathId": "harness-behaviour-tdd-age-ai",
+    "title": "A Harness for Behaviour",
+    "subtitle": "Ensuring AI-generated Code Does What We Want - TDD in the Age of AI",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Agentic Engineering",
+        "value": "6a3bd55767e52b83f218df07"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Data",
+        "value": "6a3bd49a67e52b83f218df06"
+      }
+    ],
+    "photo": "/media/cc2b89c4-e82d-426e-b946-096555c89a96.png",
+    "videoURL": "3tdmoj35HG0",
+    "speakers": [
+      {
+        "speakerId": "6a38f4dc67e52b83f218ded6",
+        "position": 1
+      }
+    ],
+    "description": "How do we know if our application functionally behaves the way we need it to? How do we guide agents so that it does what we need? My colleague Birgitta Böckeler observes: At the moment, most people who give high autonomy to their coding agents do this: - Feed-forward: A functional specification (of varying levels of detail, from a short prompt to multi-file descriptions) - Feed-back: Check if the AI-generated test suite is green, has reasonably high coverage, some might even monitor its quality with mutation testing. Then combine that with manual testing. You might expect that the AI-generated tests are being carefully read and reviewed; after all, they are our first line of defense, aren't they? But in practice, reading a lot of test code is even harder than reading a lot of generated production code. So we end up glancing at the tests and quickly skimming the test names. As a result, many practitioners who are otherwise very proficient with coding agents, are not feeling as confident about behaviour as we might expect. In this presentation, I argue that the problem is not with the tests, but with test-as-code, and I propose test-as-fixtures as a better alternative. There is a convergence of approaches: in the Go testing tradition, most tests are tabular, and the part you will want to read is not the test code, but the table. And when the table grows, it can be moved to text files. Something similar happens in the approval testing tradition, where we use custom printers to delete extraneous detail from an application output and compare it with an approved version. This is captured in the Approved Fixtures pattern, published by Ivett Ördög in the Augmented Coding Patterns. The advantage of fixtures is that they are basically pairs of (input, expected output), and are expressed in a human-friendly notation, and they are much easier and more fun to manually verify than test code. Because fixtures are easy to read, they restore a tests-first workflow: whether written by the developer or generated by the agent, the fixtures are reviewed and approved before implementation begins, and executed whenever the application changes, thus restoring our faith in the behaviour of our applications."
+  },
+  {
+    "id": "6a3bd8fe67e52b83f218df0b",
+    "readablePathId": "roundtable-mobility-0.5",
+    "title": "Mobility 5.0",
+    "subtitle": "The Future of Intelligent Transportation Systems (ITS), balancing AI & Cyber Risks",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Round Table",
+        "value": "685bf240b8fe3b7d36512d5a"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Trusted AI",
+        "value": "6a3bd90f96284ec711f07670"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Mobility",
+        "value": "685bf1e1b8fe3b7d36512d57"
+      }
+    ],
+    "photo": "/media/4053a378-5b08-42d8-a5b3-82aefa53c024.png",
+    "videoURL": "I9ovYJKi_D8",
+    "slideURL": "https://eu1.hubs.ly/H0wqFzL0",
+    "speakers": [
+      {
+        "speakerId": "6a38f6ca67e52b83f218deda",
+        "position": 1
+      },
+      {
+        "speakerId": "6a38f68d67e52b83f218ded9",
+        "position": 2
+      },
+      {
+        "speakerId": "6a38f74467e52b83f218dedd",
+        "position": 3
+      },
+      {
+        "speakerId": "6a38f70b67e52b83f218dedb",
+        "position": 4
+      },
+      {
+        "speakerId": "6a38f79167e52b83f218dede",
+        "position": 5
+      }
+    ],
+    "description": "The Italian transport sector is undergoing a landmark transformation driven by EU Directive 2661/23 and Decree 40. The advent of \"\"Mobility 5.0\"\" integrates autonomous vehicles and Mobility as a Service (MaaS), presenting a crucial challenge: balancing AI efficiency with the growing cyber threats to critical infrastructure and real-time data. In this roundtable moderated by TTS Italia, industry leaders will analyze how to combine regulatory innovation with operational security. The discussion will highlight the role of technological platforms as essential enablers of governance, compliance, and data protection within an increasingly interconnected and data-driven ecosystem."
+  },
+  {
+    "id": "6a3bdabe67e52b83f218df0d",
+    "readablePathId": "quixa-transformation-journey",
+    "title": "Quixa's transformation Journey",
+    "subtitle": "How to build a data platform to unlock the value of data",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI Ready Architecture",
+        "value": "6a329da19f0d579450847df4"
+      },
+      {
+        "label": "Data",
+        "value": "685bf2c2b8fe3b7d36512d5f"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Data",
+        "value": "6a3bd49a67e52b83f218df06"
+      }
+    ],
+    "photo": "/media/62dfea01-a96a-4cc2-8c31-b34a5d96e601.png",
+    "videoURL": "8DeWq4bIXAM",
+    "slideURL": "https://eu1.hubs.ly/H0wqCyn0",
+    "speakers": [
+      {
+        "speakerId": "6a38f5c867e52b83f218ded7",
+        "position": 1
+      },
+      {
+        "speakerId": "6735f81aba43c4fec5bdbfd9",
+        "position": 2
+      }
+    ],
+    "description": "Quixa shares how it overcame the limitations of legacy systems by creating a modern and scalable Data Platform. The company leveraged a Digital Integration Hub (DIH) architecture to aggregate fragmented data from legacy systems into a unified Data Product, to be exposed to front-end touchpoints. This solution offloaded the core systems, ensuring high performance and reliability for digital touchpoints while streamlining data access for applications. The presentation will explore the key decision drivers, technical challenges, the adoption journey, and the results achieved, while also looking at how this project serves as a catalyst for future innovation."
+  },
+  {
+    "id": "6a3bdb0067e52b83f218df0f",
+    "readablePathId": "scaling-financial-trust-crif",
+    "title": "Scaling Financial Trust",
+    "subtitle": "How CRIF Orchestrates AI and Composability to Accelerate Global Fintech Innovation",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/d559463e-1fb5-4301-9892-517a50b5db28.png",
+    "videoURL": "Pb3I2xE5tvA",
+    "slideURL": "https://eu1.hubs.ly/H0wqBs-0",
+    "speakers": [
+      {
+        "speakerId": "6a38f64696284ec711f07642",
+        "position": 1
+      }
+    ],
+    "description": "In an increasingly global and competitive fintech market, it is necessary to adopt strategies to scale the business while optimizing costs and time-to-market. With this in mind, CRIF has chosen a composable business model to organize and develop its digital services offering, maximizing the reuse of existing assets. To support this vision, CRIF has created a platform that includes a catalog of the components of the offering and uses it as a knowledge base for a specialized AI assistant. Through the platform interface, it is possible to interact with the agent by providing a list of requirements; the AI analyzes the requests and proposes solutions that favor the reuse and evolution of already available components. This tool allows CRIF to significantly reduce the time needed to define precise and modular solutions, accelerating innovation and the ability to respond to market needs."
+  },
+  {
+    "id": "6a3bed5696284ec711f07672",
+    "readablePathId": "genai-as-catalyst-platforms",
+    "title": "GenAI as a Catalyst of Collaboration Platforms Among Teams",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Agentic Engineering",
+        "value": "6a3bd55767e52b83f218df07"
+      }
+    ],
+    "photo": "/media/a68e8f0b-5a49-4935-9453-77491b5c68bd.png",
+    "videoURL": "YcM3jDmA7zo",
+    "slideURL": "https://eu1.hubs.ly/H0wqB2v0",
+    "speakers": [
+      {
+        "speakerId": "67c0297ea83742d992658dde",
+        "position": 1
+      },
+      {
+        "speakerId": "67c02921a83742d992658ddc",
+        "position": 2
+      }
+    ],
+    "description": "Generative AI is changing the way organizations collaborate. Beyond personal productivity, it has the potential to become the core infrastructure of new internal platforms — systems that connect people, knowledge, and decisions. This talk explores how GenAI can act as a co-thinker, enabling teams to reason together, share insights, and build collective intelligence. Through the lens of Platform Thinking, we’ll see how organizations can move from isolated efficiency to shared reflection, transforming GenAI from a tool into an innovation platform. Real-world experiments, such as the case of Fujitsu, show how AI can foster cross-functional collaboration and knowledge exchange across silos. The real opportunity lies not in automating work, but in creating the conditions for teams — and entire organizations — to think together, faster and deeper than before."
+  },
+  {
+    "id": "6a3beed496284ec711f07673",
+    "readablePathId": "reinventing-the-dev-team",
+    "title": "Reinventing The Dev Team",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Trusted AI",
+        "value": "6a3bd90f96284ec711f07670"
+      }
+    ],
+    "photo": "/media/1586292e-f49b-4ed3-87b5-406f33c00112.png",
+    "videoURL": "qzw1pTVISDA",
+    "slideURL": "https://eu1.hubs.ly/H0wqJv30",
+    "speakers": [
+      {
+        "speakerId": "6a392d1196284ec711f07652",
+        "position": 1
+      }
+    ],
+    "description": "I don’t need to tell you that AI has changed software development forever. You know this. Whether you’re positive, negative or indifferent to this change, you can’t deny that the past 2 years have radically changed the role of the software developer.  Just a few years ago I would have advocated for The Balanced Team. A Product Manager, a Product Designer, an Engineering Manager and 4-8 Developers. It worked.  18 months ago I was telling people that “I’ve never seen a dev team get to the end of their backlog, I don’t see that happening”. I’ve seen it now. Actually, I’ve seen it more than once.  The balanced team as we knew it doesn’t work any more.  The seismic shift in software is only just getting started. I don’t offer a proven strategy to navigate this change, we are sailing these turbulent waters together. What I propose is that we go back to fundamentals, refocus on outcomes and evaluate our options for evolving team composition.  In this talk I bring you these options, what I’ve seen work, what I’m ready to throw out, and most importantly, the things I will keep no matter what."
+  },
+  {
+    "id": "6a3bf7ce96284ec711f07676",
+    "readablePathId": "harmonizing-the-data-revolution-aindo-vision",
+    "title": " Harmonizing the Data Revolution:",
+    "subtitle": "A Vision for Clinical-grade Synthetic Evidence",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Trusted AI",
+        "value": "6a3bd90f96284ec711f07670"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Healthcare",
+        "value": "685bbfb8b8fe3b7d36512d4b"
+      }
+    ],
+    "photo": "/media/6befd6f7-93a2-46ee-8114-ed7b5a5e1409.png",
+    "videoURL": "fngmJReTeaE",
+    "slideURL": "https://eu1.hubs.ly/H0wqH_h0",
+    "speakers": [
+      {
+        "speakerId": "6735e401ba43c4fec5bdbfa7",
+        "position": 1
+      }
+    ],
+    "description": "Aindo is leading a shift in digital health by unlocking the 95% of biomedical data currently siloed behind privacy barriers. To truly Master The Vibe of modern healthcare, Aindo utilizes generative AI to create synthetic data that perfectly replicates complex clinical patterns while remaining entirely anonymous. This innovation accelerates research timelines—transforming 9-month data access hurdles into instant availability for high-impact use cases like rare tumor modeling.  The key to Aindo’s success lies in its \"\"clinical-grade\"\" commitment. By leveraging the P4SaMD framework to develop its solutions, Aindo ensures its technology is not just mathematically accurate but also meets the rigorous regulatory standards required for medical device software. This session highlights how Aindo empowers researchers to scale Real-World Evidence securely, demonstrating that the future of medicine is built on data that is both high-fidelity and fully compliant."
+  },
+  {
+    "id": "6a3befc867e52b83f218df12",
+    "readablePathId": "helvetia-platform-journey",
+    "title": "Helvetia's Platform Journey: ",
+    "subtitle": "From Legacy to AI-powered Innovation",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Data",
+        "value": "6a3bd49a67e52b83f218df06"
+      }
+    ],
+    "photo": "/media/4314731c-c6f2-4503-8c48-cd7ea65d87ee.png",
+    "videoURL": "ORGOI0FqwDY",
+    "slideURL": "https://eu1.hubs.ly/H0wqCkm0",
+    "speakers": [
+      {
+        "speakerId": "6a392fcf67e52b83f218def0",
+        "position": 1
+      }
+    ],
+    "description": "Maurizio Sala, Head IT Application Service Management at Gruppo Helvetia Italia, unveils the remarkable seven-year journey behind the creation of their Digital Integration Hub. Maurizio will detail how Gruppo Helvetia Italia transitioned from the initial legacy system to leveraging Mia-Platform Fast Data, enabling seamless data flow to all channels without querying underlying technical systems. The presentation will highlight the platform's continuous evolution, including the integration of new functionalities, collaboration with external development teams, and the exciting prospect of new integrations with external partners. Maurizio will share how this powerful tool has delivered significant benefits to the company thus far. Looking ahead, the discussion will pivot to the future challenges and opportunities. Thanks to the Digital Integration Hub, Gruppo Helvetia Italia has established the crucial foundation and data necessary to fuel AI systems, paving the way for high-value use cases. A prime example is their innovative new claims management engine, entirely AI-based and orchestrated through Mia-Platform. Don't miss this insightful deep dive into Gruppo Helvetia Italia's pioneering work in digital transformation and AI integration."
+  },
+  {
+    "id": "6a3bf95067e52b83f218df15",
+    "readablePathId": "augmented-finops-ai-era",
+    "title": "Augmented FinOps:",
+    "subtitle": "Master Cloud Governance in the AI Era",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Live Demo",
+        "value": "685bf29ab8fe3b7d36512d5e"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/3987b03e-191a-4e72-90f7-338f3672226b.png",
+    "videoURL": "Gdl0jBGnMd0",
+    "slideURL": "https://eu1.hubs.ly/H0wqGcb0",
+    "speakers": [
+      {
+        "speakerId": "6a392ed067e52b83f218deed",
+        "position": 1
+      },
+      {
+        "speakerId": "6a392e8f96284ec711f07655",
+        "position": 2
+      }
+    ],
+    "description": "Cloud adoption promises increased agility, scalable and reliable architectures, progressive and sustainable growth, and an economic model fully aligned with consumption. These capabilities enable organizations to innovate faster, optimize costs, and adapt to market demands with greater resilience. Traditional FinOps approaches are reactive: how much did we spend? Where could we have saved? But in an AI-native platform world, this passive stance is no longer enough. Augmented FinOps shifts the paradigm from cost analysis to predictive cost governance."
+  },
+  {
+    "id": "6a3bf13567e52b83f218df13",
+    "readablePathId": "n-and-built-ai-ready-data-platform",
+    "title": "N-and - From Machine to Insight:",
+    "subtitle": "How We Built an AI-Ready Data Platform on Mia-Platform Fast Data",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Data",
+        "value": "6a3bd49a67e52b83f218df06"
+      }
+    ],
+    "photo": "/media/2dc98694-b67d-42af-9224-0718d0ad95fd.png",
+    "videoURL": "mAjnF-QvtKs",
+    "speakers": [
+      {
+        "speakerId": "6a392f8167e52b83f218deef",
+        "position": 1
+      }
+    ],
+    "description": "N-and operates at the intersection of physical and digital commerce: thousands of vending machines in the field, a consumer loyalty app, and a growing need to turn fragmented operational data into business value. By adopting Mia-Platform Fast Data, we unified two fundamentally different data worlds: telemetry streams from machines on field — carrying purchase transactions, audit trails, and operational signals — and behavioral events from the CoffeeApp, including loyalty interactions, ad engagement, and redemptions. The result is a set of Data Products that give the entire organization a single, trusted view of customers, machines, and transactions. What makes this journey distinctive is how we accelerated delivery. We developed AI-powered skills that automate the creation of Single View configurations directly from incoming event schemas and aggregation templates, dramatically reducing the time from data source to Data Product. Alongside this, we adopted decision tables — driven by business rules written in Rego — to express complex aggregation logic in a format that business and technology teams can read, validate, and evolve together, without touching the underlying pipeline code. The outcome is a scalable, event-driven infrastructure where real-time data from the physical and digital world converges into standardized views that feed dashboards, operational systems, and AI agents — and where the rules that govern that data are owned by the business, not buried in code."
+  },
+  {
+    "id": "6a3bfb4467e52b83f218df16",
+    "readablePathId": "observing-the-unobservable-when-platform-observability-meets-ai-agents",
+    "title": "Observing the Unobservable:",
+    "subtitle": "When Platform Observability Meets AI Agents",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Live Coding",
+        "value": "685bf24cb8fe3b7d36512d5b"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/c5462c18-1b56-4107-a06b-711fddbe3555.png",
+    "videoURL": "7TFKJZOixNM",
+    "slideURL": "https://eu1.hubs.ly/H0wqJFw0",
+    "speakers": [
+      {
+        "speakerId": "67cefcb5a83742d992658e0a",
+        "position": 1
+      }
+    ],
+    "description": "Platform Engineering teams running Kubernetes-based IDPs have solved observability for modern workloads. Prometheus scrapes metrics, Loki aggregates logs, Tempo stores distributed traces, OpenTelemetry instruments everything, and Grafana ties it together. For microservices, APIs, and databases, that stack works. It handles scale, it handles failure and it handles cardinality. Then AI agents enter the platform as first-class workloads and the assumptions that underpinned that observability stack start to crack. Not because the stack is wrong, but because agents behave differently. A microservice executes deterministic logic and returns a result while an AI agent reasons across multiple steps, selects and calls tools dynamically, retrieves context from vector stores, chains LLM calls, and produces outputs that are non-deterministic by design. A span that shows 200 OK and 1.4 seconds tells you nothing about whether the agent reached the right conclusion, used the right context, or stayed within safe operational boundaries. This talk walks through the concrete evolution of a production observability stack as AI agents are introduced to the platform. Starting from a standard observability setup, this session covers the new challenges that are introduced by AI agents and how to face them."
+  },
+  {
+    "id": "6a3bfbe267e52b83f218df18",
+    "readablePathId": "closing-keynote-special-guest-layla-pavone-comune-milano",
+    "title": "Closing Keynote with Special Guest:",
+    "subtitle": "Layla Pavone, Comune di Milano",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Trusted AI",
+        "value": "6a3bd90f96284ec711f07670"
+      }
+    ],
+    "photo": "/media/a75fc3c5-0106-4c47-9ecf-1179669de501.png",
+    "videoURL": "iuiz-R4-5u0",
+    "slideURL": "https://eu1.hubs.ly/H0wqBYR0",
+    "speakers": [
+      {
+        "speakerId": "6a392dd996284ec711f07654",
+        "position": 1
+      }
+    ],
+    "description": "We conclude the day with a special guest who will share the perspective of a city at the forefront of digitalization in Europe and the world: Milan. We will reflect on the impact of technology on society and the collective actions we can take as citizens, businesses, and institutions."
+  },
+  {
+    "id": "6a3d23bef913ed7e2e2e9f23",
+    "readablePathId": "mastering-payments-era-ai-bff-bank-payconnect",
+    "title": "Mastering Payments in the Era of AI:",
+    "subtitle": "The Flow Behind PayConnect",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI Orchestration",
+        "value": "6a3bdb2967e52b83f218df10"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/f3db51c2-ac22-4a8b-9a5b-23108344ffc8.png",
+    "videoURL": "XxduIm-sZNg",
+    "slideURL": "https://eu1.hubs.ly/H0wqJ_H0",
+    "speakers": [
+      {
+        "speakerId": "6a393d3396284ec711f07668",
+        "position": 1
+      }
+    ],
+    "description": "In the age of Vibe Engineering, the goal of finance is to turn fragmented data into a seamless, intelligent rhythm. BFF Bank presents PayConnect, an omnichannel platform designed to harmonize corporate collections using AI-driven automation.  By leveraging Mia-Platform’s AI-native foundation, BFF Bank has moved beyond static rules to intelligent, pattern-based reconciliation and real-time monitoring. We will explore how a composable, API-first architecture allows AI agents to orchestrate complex financial flows, eliminating friction and manual errors. Join us to see how BFF Bank is mastering the payment vibe, transforming legacy complexity into a modern, fluid, and AI-accelerated experience."
+  },
+  {
+    "id": "6a3d2459f913ed7e2e2e9f25",
+    "readablePathId": "falling-in-love-with-pe",
+    "title": "Falling in Love with Platform Engineering:",
+    "subtitle": "The CUPID Way",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/b9ffe7c1-3788-4efe-81e4-a18f87207d7e.png",
+    "videoURL": "UbFfl5Vysfw",
+    "slideURL": "https://eu1.hubs.ly/H0wqzt50",
+    "speakers": [
+      {
+        "speakerId": "6a393c7196284ec711f07666",
+        "position": 1
+      }
+    ],
+    "description": "In recent years, large organizations have adopted Internal Developer Portals (IDPs) to balance governance and autonomy. Despite their promise, many platforms prioritize compliance over usability. This talk explores enhancing platform engineering through principles like product mindset, user experience, and key metrics, while questioning the optimal granularity of services in the “Golden Path.” Inspired by Dan North’s “Joyful Software”, during this talk the concept of “Joyful Engineering” and the CUPID principles are proposed to transform service building approaches. By focusing on self-containment, idempotency and single purpose, organizations can improve service acceptance and foster collaboration. Key takeaways include: - Understanding why IDPs aren’t a magic solution for developer experience. - Finding the balance between autonomy and governance. - Adoption of Cupid Principles (Composable, Unix Philosophy, Predictable, Idiomatic, Domain-based) to Platform Engineering. - Leveraging the “Everything as Code” mindset with Agentic AI to shape the future of developer experience."
+  },
+  {
+    "id": "6a3d2b2d67e52b83f218df1a",
+    "readablePathId": "the-data-first-dividend-scaling-ai-in-the-high-stakes-world-of-finance",
+    "title": "Fireside Chat:",
+    "subtitle": "Scaling AI in the High-Stakes World of Finance",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Round Table",
+        "value": "685bf240b8fe3b7d36512d5a"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Trusted AI",
+        "value": "6a3bd90f96284ec711f07670"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/03645807-c417-4d3d-95e2-b392f06e75a2.png",
+    "videoURL": "t9QB3WDd88g",
+    "slideURL": "https://eu1.hubs.ly/H0wqGc40",
+    "speakers": [
+      {
+        "speakerId": "6735e6c3ba43c4fec5bdbfc1",
+        "position": 3
+      },
+      {
+        "speakerId": "6a3939a067e52b83f218def4",
+        "position": 1
+      },
+      {
+        "speakerId": "6a3939e496284ec711f07663",
+        "position": 2
+      }
+    ],
+    "description": "The financial services market stands at a critical crossroads. While the AI revolution promises unprecedented competitive advantage, scaling it across complex organizations requires navigating shifting regulations, cultural inertia, and structural friction. In this high-stakes environment, AI transformation is no longer just an engineering challenge—it is a profound leadership imperative. This fireside chat brings together elite perspectives from the front lines of enterprise consulting, fintech ecosystem growth, and digital banking leadership. Together, the panel will dissect immediate market friction points and long-term opportunities ahead, offering actionable takeaways for modern executives. Join us to uncover what it truly takes to champion innovation, overcome organizational inertia, and effectively lead systemic change in the future of finance."
+  },
+  {
+    "id": "6a3d2d1b67e52b83f218df1c",
+    "readablePathId": "enter-the-flow-from-vibe-coding-to-vibe-engineering",
+    "title": "Enter the Flow:",
+    "subtitle": "From Vibe Coding to Vibe Engineering",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Agentic Engineering",
+        "value": "6a3bd55767e52b83f218df07"
+      }
+    ],
+    "photo": "/media/35b32eba-c13c-4214-985b-b1754b9682b0.png",
+    "videoURL": "l5l2RRIaDXE",
+    "slideURL": "https://eu1.hubs.ly/H0wqzGW0",
+    "speakers": [
+      {
+        "speakerId": "6a39343c96284ec711f07660",
+        "position": 1
+      },
+      {
+        "speakerId": "6735f7e2ba43c4fec5bdbfd7",
+        "position": 2
+      }
+    ],
+    "description": "Lovable, Claude Code, Cursor. Vibe coding feels like magic, until that magic hits the wall of enterprise reality: compliance, ownership, integrations, scale. The shortcut from vibe coding to vibe engineering is having Context. In this session we'll show you the modern SDLC as a butterfly: one wing is experiment (anyone can build, fast), the other is engineering (governance, scale). What sits in the middle is the Context Catalog: a living digital twin of your organization. We'll walk this flow end-to-end. First, a look at the Catalog as the single source of truth: connectors, item types, relationships, scorecards. Then we'll watch a business-tech stakeholder turn an idea into a working application using Mia-Flow, with the Catalog injecting compliance rules and architectural patterns automatically."
+  },
+  {
+    "id": "6a3d392e67e52b83f218df1d",
+    "readablePathId": "vibe-in-regulated-industries",
+    "title": "Vibe in Regulated Industries:",
+    "subtitle": "The Gap No One Planned for",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      },
+      {
+        "label": "Live Demo",
+        "value": "685bf29ab8fe3b7d36512d5e"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Agentic Engineering",
+        "value": "6a3bd55767e52b83f218df07"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Healthcare",
+        "value": "685bbfb8b8fe3b7d36512d4b"
+      }
+    ],
+    "photo": "/media/97ac7a9b-138e-4340-a66e-50dd418e543f.png",
+    "videoURL": "gfS5NzQKBJk",
+    "slideURL": "https://eu1.hubs.ly/H0wqCyc0",
+    "speakers": [
+      {
+        "speakerId": "6735dddfba43c4fec5bdbf77",
+        "position": 1
+      },
+      {
+        "speakerId": "67ff6d82a76ab1eceb6e91f6",
+        "position": 2
+      }
+    ],
+    "description": "The tension between \"shipping fast\" and \"staying compliant\" reaches a peak when healthcare teams integrate AI features into certified legacy platforms, resulting in a modern compliance collision under evolving frameworks like the EU AI Act, FDA PCCP, and GMLP. This burden is compounded by years of \"legacy compliance debt\" layered onto ambiguous AI obligations. The session demonstrates how an AI-powered gap analysis can quickly ingest the legacy codebase and new AI modules to surface every regulatory shortfall—such as missing explainability evidence or bias documentation—in a fraction of the time required by manual consultancy. The presentation shows how these gaps are transformed into a prioritized, framework-tagged remediation plan for the development team. Ultimately, the session explores how to navigate this new category of compliance debt, ensuring innovation is not sacrificed for regulatory necessity."
+  },
+  {
+    "id": "6a3d3a8d67e52b83f218df1e",
+    "readablePathId": "ulixepay-next-gen-wallet",
+    "title": "Finding the Flow:",
+    "subtitle": "How UlixePay Built a Next-Gen Wallet in Record Time",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Agentic Engineering",
+        "value": "6a3bd55767e52b83f218df07"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/e8b38ac2-e23a-4b49-b63e-e3c7a1244310.png",
+    "videoURL": "dicZAgVUsLo",
+    "slideURL": "https://eu1.hubs.ly/H0wqC1T0",
+    "speakers": [
+      {
+        "speakerId": "6a393a7a67e52b83f218def5",
+        "position": 1
+      }
+    ],
+    "description": "The digital payments market is undergoing a complete transformation as the Digital Euro and stablecoins are opening up unprecedented scenarios for growth and innovation. However, delivering a modern payment experience requires a perfectly synced technical ecosystem.  In this session, UlixePay share the behind-the-scenes story of developing the UlixePay Wallet. We will discuss the pragmatic challenges of integrating complex banking services and how the partnership utilized Mia-Platform’s Catalog and intelligent capabilities to accelerate development and streamline integrations.  By focusing on a composable approach, the team was able to \"Master The Vibe\" of the project—harmonizing regulatory requirements with radical agility. Join us to see how clear collaboration and the right technology stack can turn a complex BaaS integration into a successful, user-centric reality ready for the 2026 market."
+  },
+  {
+    "id": "6a3d3b4667e52b83f218df20",
+    "readablePathId": "building-ai-ready-architectures-with-mia-platform",
+    "title": "Building \"AI-Ready\" Architectures with Mia-Platform",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI Ready Architecture",
+        "value": "6a329da19f0d579450847df4"
+      }
+    ],
+    "photo": "/media/453c9505-72c1-424a-beb9-80950293a5a7.png",
+    "videoURL": "r60cQ8Ky3Jo",
+    "slideURL": "https://eu1.hubs.ly/H0wqBDS0",
+    "speakers": [
+      {
+        "speakerId": "6a39319f96284ec711f0765c",
+        "position": 1
+      },
+      {
+        "speakerId": "6a3931eb96284ec711f0765e",
+        "position": 2
+      }
+    ],
+    "description": "In the modern enterprise, one of the biggest problems to innovation is the friction of data fragmentation. Most organizations spend a lot of time finding, cleaning, and understanding data before a single line of application code is even written. But what if your data architecture was \"self-describing\" and ready to be consumed by both humans and AI? This talk describes a modern Data Fabric approach. We will move beyond specific use cases to explore a universal architectural pattern for building data-driven applications. We will dive into the three pillars of an actionable data strategy: Data Catalog & Lineage: How to create a shared semantic layer where every data point is enriched with business context and traced back to its source, eliminating ambiguity. Real-time Data Pipelines: The methodology for orchestrating flows from legacy systems into Single Views: unified, high-performance data products ready for API consumption. AI-design of an application: We will demonstrate how easy it is to design an application while interacting with Mia-Platform Data Fabric. By the end of this session, you will see how a Solution Architect can design a complex application simply by \"talking\" to the system. Through governed metadata and lineage, the AI understands the context, fetches the right data schemas, and accelerates the design & building process."
+  },
+  {
+    "id": "6a3d47a7f913ed7e2e2e9f2a",
+    "readablePathId": "from-home-care-digital-ecosystem",
+    "title": "From Home Care to Digital:",
+    "subtitle": "A Composable PSP Transformation",
+    "edition": {
+      "label": "2026",
+      "value": "6a32a20e9f0d579450847e09"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Trusted AI",
+        "value": "6a3bd90f96284ec711f07670"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Healthcare",
+        "value": "685bbfb8b8fe3b7d36512d4b"
+      }
+    ],
+    "photo": "/media/05cdecc3-0fbb-4b7e-a269-fcdd14d419a6.png",
+    "videoURL": "yb752NrGsK8",
+    "slideURL": "https://eu1.hubs.ly/H0wqBGl0",
+    "speakers": [
+      {
+        "speakerId": "6a393e4267e52b83f218def7",
+        "position": 1
+      }
+    ],
+    "description": "Discover how ItaliAssistenza redefined Patient Support Programs. Join us to explore how a cloud-native, composable architecture can digitize homecare, telemedicine, and logistics in just 6 months. We’ll reveal how a platform can unify doctors, patients, and ops centers, managing +60k home visits with ease. Learn to leverage holistic data for superior therapeutic adherence and scalable care. Don't miss this blueprint for the future of Digital Health!"
+  },
+  {
+    "id": "685bc17eb8fe3b7d36512d54",
+    "readablePathId": "opening-keynote",
+    "title": "Get Ready to Unleash the Invisible",
+    "subtitle": "Opening Keynote",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      },
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "industry": [],
+    "photo": "/media/83acc3c4-93f5-49fb-a907-44b3d1748c0d.png",
+    "videoURL": "wrqy_CDfuqk",
+    "slideURL": "https://eu1.hubs.ly/H0lBxGw0",
+    "speakers": [
+      {
+        "speakerId": "6735dba2ba43c4fec5bdbf67",
+        "position": 3
+      },
+      {
+        "speakerId": "6735de49ba43c4fec5bdbf7b",
+        "position": 2
+      },
+      {
+        "speakerId": "6735de76ba43c4fec5bdbf7d",
+        "position": 1
+      }
+    ],
+    "description": "Kick off Platmosphere 2025 with our inspiring Opening Keynote! Join us as we explore how AI and Platform Engineering are unlocking hidden potential in modern software systems. Discover how these powerful technologies are driving efficiency, sustainability, and innovation, and learn how you can harness them to revolutionize your platforms and organization."
+  },
+  {
+    "id": "685bfc8db8fe3b7d36512d6b",
+    "readablePathId": "platform-engineering-ai-agents",
+    "title": "Platform Engineering Empowered",
+    "subtitle": "Harnessing Human-Centric AI Agents",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      },
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "industry": [],
+    "photo": "/media/ce8fa609-3578-4ea8-9064-40c3b4f5c423.png",
+    "videoURL": "fMIhfeBI-Vc",
+    "slideURL": "https://eu1.hubs.ly/H0lByBG0",
+    "speakers": [
+      {
+        "speakerId": "67c0406ab3efaa4f044be3d9",
+        "position": 1
+      },
+      {
+        "speakerId": "67c040aaa83742d992658de3",
+        "position": 2
+      }
+    ],
+    "description": "As organizations continuously evolve their platform engineering practices, the seamless integration of AI agents is emerging as a transformative paradigm in orchestrating the journeys of developers and platform engineers. This presentation explores how AI agents can enhance Internal Developer Platforms (IDPs) and orchestration frameworks by introducing self-managing, self-optimizing, and self-healing capabilities that work in tandem with human expertise. While the allure of AI-driven platform automation is compelling, realizing this vision involves overcoming significant practical challenges. How can we design specialized AI agents that make real-time, collaborative decisions—ranging from anomaly detection and automated corrections to adaptive cloud resource allocation and cost optimization? In addressing this question, the talk examines the integration of human-in-the-middle oversight, ensuring accuracy and mitigating the inherent probabilistic risks associated with AI systems. Attendees will be guided through a step-by-step approach to identify key areas for AI integration, select the appropriate specialized agents, and develop effective orchestration strategies that align seamlessly with both developer and platform engineer journeys. By the end of the session, participants will have acquired a structured framework for leveraging AI in platform engineering, fostering a collaborative ecosystem where AI agents and human expertise come together to optimize the overall platform experience."
+  },
+  {
+    "id": "685bff28b8fe3b7d36512d6d",
+    "readablePathId": "atm-platform-strategy-mobility",
+    "title": "ATM's Platform Strategy for Future-Ready Mobility",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Lightning Talk",
+        "value": "685bf262b8fe3b7d36512d5c"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Mobility",
+        "value": "685bf1e1b8fe3b7d36512d57"
+      }
+    ],
+    "photo": "/media/7c1ceafb-2b23-4e09-b5d3-5db8a0f99f91.png",
+    "videoURL": "S6R7oRtJ4ho",
+    "slideURL": "https://eu1.hubs.ly/H0lByNM0",
+    "speakers": [
+      {
+        "speakerId": "681b09ea7d3cd1f1748eb43c",
+        "position": 1
+      }
+    ],
+    "description": "The future of urban mobility is integrated, intelligent, and constantly evolving. ATM, Milan's public transport operator, is proactively engineering this future. In 2024, a strategic platform initiative was launched focused on building an Integrated Digital Ecosystem, enhancing existing capabilities with modern, composable architectures. This lightning talk shares the Platform Story: how microservices and data fabric are being leveraged to create new value streams and integrate seamlessly with core enterprise systems like ERP. Discover how this evolutionary approach provides the agility and scalability needed for continuous innovation, preparing ATM to deliver the next generation of smart mobility services."
+  },
+  {
+    "id": "685c0090b8fe3b7d36512d6f",
+    "readablePathId": "data-catalog-ai-retail",
+    "title": "Data Catalog & AI in Unicoop Firenze (Retail)",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Data",
+        "value": "685bf2c2b8fe3b7d36512d5f"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Retail",
+        "value": "685bf1eab8fe3b7d36512d58"
+      }
+    ],
+    "photo": "/media/7c3f4e33-5351-484a-a259-b5f77e8d3f1d.png",
+    "videoURL": "ua-DLxFoYgM",
+    "slideURL": "https://eu1.hubs.ly/H0lByrh0",
+    "speakers": [
+      {
+        "speakerId": "67ef98ed9ac283172d0d9572",
+        "position": 1
+      },
+      {
+        "speakerId": "67eff9f39ac283172d0d9574",
+        "position": 2
+      }
+    ],
+    "description": "In an era where data represents a strategic asset for organizations, its efficient, secure, and compliant management is crucial for various professional roles — from the Data Protection Officer (DPO) to business analysts and all other stakeholders involved in data governance. This talk will explore how AI is revolutionizing the use of tools such as data catalogs, offering new opportunities for data governance and privacy protection. Through the practical case of Unicoop Firenze, we will present an innovation journey that starts from concrete needs, moves through the definition of requirements with Mia-Platform, and leads to the implementation of an AI assistant. We will discuss the benefits, the challenges encountered, and the lessons learned, with a particular focus on how AI can enable secure and regulation-compliant access to data. Finally, we will offer a glimpse into future developments and the potential of agentic AI for increasingly intelligent and proactive data management."
+  },
+  {
+    "id": "685c0149b8fe3b7d36512d71",
+    "readablePathId": "insurance-digital-transformation",
+    "title": "Reimagining Insurance",
+    "subtitle": "HDI Assicurazioni’s Digital Transformation Journey",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/533552e2-c033-4a31-bbd5-5cd6ba9411bc.png",
+    "videoURL": "wT-9e2FFfSk",
+    "slideURL": "https://eu1.hubs.ly/H0lByRR0",
+    "speakers": [
+      {
+        "speakerId": "67c8878fa83742d992658e08",
+        "position": 1
+      },
+      {
+        "speakerId": "6735f81aba43c4fec5bdbfd9",
+        "position": 2
+      },
+      {
+        "speakerId": "67f77cb5a76ab1eceb6e91f4",
+        "position": 3
+      }
+    ],
+    "description": "In an industry traditionally built on trust and stability, digital transformation is reshaping the future of insurance. HDI Assicurazioni is at the forefront of this evolution, leveraging cutting-edge technologies to enhance customer experience, streamline operations, and deliver innovative insurance solutions. This talk will dive into the company’s digital innovation journey to expand its businesses, exploring the strategies, technologies, and partnerships that are driving change."
+  },
+  {
+    "id": "685c01e5b8fe3b7d36512d73",
+    "readablePathId": "Generative-AI-bank",
+    "title": "GT Gen-AI",
+    "subtitle": "How To Adopt Generative AI Technologies in the IT Unit of a Large International Bank",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/956ee80b-6b41-494f-955c-a1b4e4f2f4d2.png",
+    "videoURL": "tqF73RYXmDk",
+    "slideURL": "https://eu1.hubs.ly/H0lBzNH0",
+    "speakers": [
+      {
+        "speakerId": "67ef987c9ac283172d0d9570",
+        "position": 1
+      }
+    ],
+    "description": "After few months of development, tuning and development with the involvement of 1,500 IT professionals, Intesa Sanpaolo launched GT Gen-AI to all 6,000 professionals of IT unit! This new platform, based on the most advanced and recent versions of Generative AI models, was set to redefine the way to tackle everyday challenges, improving productivity and efficiency. We are excited to see the impact as we continue to innovate and improve, building on Intesa Sanpaolo IT colleagues' feedback for an even stronger platform!"
+  },
+  {
+    "id": "685c02acb8fe3b7d36512d75",
+    "readablePathId": "data-composability-energy",
+    "title": "The Power of Data and Composability To Simplify the Customer Journey in the Energy Industry",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Data",
+        "value": "685bf2c2b8fe3b7d36512d5f"
+      },
+      {
+        "label": "Composability",
+        "value": "685bf2ccb8fe3b7d36512d60"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Energy & Utilities",
+        "value": "685bf1b7b8fe3b7d36512d55"
+      }
+    ],
+    "photo": "/media/7122bbd2-bde1-40a9-828e-988a16d68e4e.png",
+    "videoURL": "sh7MeosIoPk",
+    "slideURL": "https://eu1.hubs.ly/H0lBBbg0",
+    "speakers": [
+      {
+        "speakerId": "67c73e7739a4ead54abf5bac",
+        "position": 1
+      },
+      {
+        "speakerId": "67c73eb7a83742d992658e01",
+        "position": 2
+      }
+    ],
+    "description": "In today’s competitive energy market, providing a seamless and personalized customer experience is crucial. This talk explores how the power of data and composable architectures is revolutionizing the way energy providers engage with their customers. By breaking down complex systems into modular components, organizations can leverage real-time data to drive smarter, more efficient services. In this talk we’ll explore how this approach enables agility, improves customer interactions, and simplifies service delivery."
+  },
+  {
+    "id": "685c033ab8fe3b7d36512d77",
+    "readablePathId": "hubris",
+    "title": "Hubris",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "industry": [],
+    "photo": "/media/12216823-d69e-4d84-85a2-dd708ae8f945.png",
+    "videoURL": "lm7_jJM9urI",
+    "slideURL": "https://eu1.hubs.ly/H0lBBRj0",
+    "speakers": [
+      {
+        "speakerId": "67c5ce85b3efaa4f044be3e3",
+        "position": 1
+      }
+    ],
+    "description": "As technologists, we tend to get very opinionated about our choices. When those choices are threatened, we feel threatened. The time we spent becoming an expert in something gave us a feeling of importance, self-worth, and security. As Platform Engineers, not only are we charged with building the future for our users, it's also our job to help them understand why they should adopt this new way of thinking, without judging them for using older techniques or methods. We're going to talk about some fundamental methods for working with human beings in times of uncertainty, and discover together how we can bring our users along the ride, with joy, instead of with fear."
+  },
+  {
+    "id": "685c03c3b8fe3b7d36512d79",
+    "readablePathId": "green-software",
+    "title": "Green Software",
+    "subtitle": "From Tree Hugger to Tech Trendsetter",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [],
+    "photo": "/media/dd47428f-df92-4164-b168-ad243c104d17.png",
+    "videoURL": "V8clKQoHUyc",
+    "slideURL": "https://eu1.hubs.ly/H0lBy3y0",
+    "speakers": [
+      {
+        "speakerId": "67f77b9aa76ab1eceb6e91f2",
+        "position": 1
+      }
+    ],
+    "description": "Remember when Green Software was just the new kid on the block, aiming to make a difference in the fight against climate change? Fast forward a few years, and it's now a cornerstone of responsible innovation. In this talk, Sarah will explore the rapid rise of sustainability in tech, uncovering the essential elements that make software truly green. We'll examine the delicate balance between human and machine efficiency, where writing leaner, greener code meets smart resource management. We'll also dive into how GreenOps, the next evolution of FinOps and DevOps, is making sustainability in tech more achievable than ever. By the end of this talk, you'll walk away with the basics of Green Software, practical steps you can take, and a roadmap to turn your software projects into sustainability champions. Get ready to go green!"
+  },
+  {
+    "id": "685e8b91393a47daacfa4632",
+    "readablePathId": "internal-developer-platform",
+    "title": "Internal Developer Platform Day 2 Operations Solved with Kubernetes and Crossplane",
+    "edition": {
+      "label": "2025",
+      "value": "685bbffcb8fe3b7d36512d4e"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Live Coding",
+        "value": "685bf24cb8fe3b7d36512d5b"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/d73bdad1-eb1c-469f-a04d-33b0a9bd6f07.png",
+    "videoURL": "r6f08_XIMDA",
+    "speakers": [
+      {
+        "speakerId": "67c73d80a83742d992658dfe",
+        "position": 1
+      }
+    ],
+    "description": "In most, cases, if we work very very very hard, we could enable developers to create something meaningful. Most of us do that by creating abstractions. Instead of forcing developers to spend years trying to understand the intricacies of Kubernetes, we create Helm charts that enable developers to modify a simple YAML values file and apply charts to the cluster. If we are advanced, we create CRDs and controllers that result in even better abstractions and start resembling services that developers can consume. We progress further from there by creating services not only for applications but also for databases, clusters, or anything else. We, platform engineers, become service providers and developers start consuming those services. Here's the problem though. All that tends to help only with day zero operations. Developers can create or update something in a very easy way but when it comes to operating and observing that something, they often end up being equally confused as they were before. Our services do not show the information they need so they need to dig deeper into lower-level resources to find out what's going on. That negates some of the main reasons we started offering them services. That's horrible. We're building something that looks useful when someone starts using it and it turns useless afterwards. In this talk we tackle a major challenge in Internal Developer Platforms built on top of Kubernetes: enabling developers to not only manage their applications and infrastructure but also to observe and troubleshoot them effectively. We demonstrate how to propagate meaningful status information to top-level resources using Crossplane and the Status Transformer Function. We will solve real-world issues by making day 2 operations easier for developers without overwhelming them with low-level details. We'll learn how to create custom resource definitions (CRDs) and controllers that simplify the developer experience and propagate relevant information up the hierarchy tree. This is a live coding session."
+  },
+  {
+    "id": "6863dbc20a84f049b9abb43a",
+    "readablePathId": "future-of-banking-roundtable",
+    "title": "The Future of Banking",
+    "subtitle": "How Digital Innovation is Reshaping Financial Services",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Round Table",
+        "value": "685bf240b8fe3b7d36512d5a"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/9a1a34d7-ff9c-4455-9345-678c4e783f40.png",
+    "videoURL": "z-C9A1VuzAU",
+    "speakers": [
+      {
+        "speakerId": "67c03f2bb3efaa4f044be3d5",
+        "position": 1
+      },
+      {
+        "speakerId": "67c190d0a83742d992658de9",
+        "position": 2
+      },
+      {
+        "speakerId": "67dc4e525b422f0c6e035b0b",
+        "position": 3
+      },
+      {
+        "speakerId": "67f3a6be9ac283172d0d9576",
+        "position": 4
+      },
+      {
+        "speakerId": "6735e23bba43c4fec5bdbf9d",
+        "position": 5
+      }
+    ],
+    "description": "The banking industry is undergoing a profound transformation, driven by rapid advancements in digital technology. From AI-powered financial services to cloud-native architectures and embedded banking, innovation is redefining how banks operate and interact with customers. This round table will bring together industry leaders to explore the key trends shaping the future of banking, the role of fintech collaborations, and the challenges of balancing security, compliance, and user experience in an increasingly digital world. Join us to discuss the strategies and technologies that will define the next era of financial services."
+  },
+  {
+    "id": "68665c6447c7fe4125f7d413",
+    "readablePathId": "tech-weather-platform",
+    "title": "The Tech Behind Weather Forecasting",
+    "subtitle": "How Technology Keeps You Ahead of the Weather",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Lightning Talk",
+        "value": "685bf262b8fe3b7d36512d5c"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Telco",
+        "value": "685bf1f1b8fe3b7d36512d59"
+      }
+    ],
+    "photo": "/media/098ad401-0799-4711-b5a7-17d6a4d40efb.png",
+    "videoURL": "f3v9N1TUM7k",
+    "slideURL": "https://eu1.hubs.ly/H0lBYxC0",
+    "speakers": [
+      {
+        "speakerId": "67c88986a83742d992658e09",
+        "position": 1
+      }
+    ],
+    "description": "Curious about how Netherlands biggest weather platform manages to predict the weather with such accuracy while serving millions of users every day? Join us for an insightful dive into the technology powering Buienradar’s meteorological marvel. In this down-to-earth conference talk, we’ll take a closer look at the nuts and bolts of Buienradar’s operations. Discover how Buienradar’s scalable infrastructure and clever algorithms work together to process vast amounts of data, providing users with reliable weather forecasts at their fingertips. We’ll explore the challenges of managing such a high volume of users and data, discussing practical solutions and lessons learned along the way. From data handling techniques to performance optimization, we’ll cover it all in a relatable and accessible manner. We will cover our journey to kubernetes, how our platform engineering works, how our architecture looks like, how we maximize our observability using grafana and much more. Whether you’re a tech enthusiast, a weather aficionado, or simply curious about how your favorite weather app works, this talk is for you. Join us as we peel back the curtain on Buienradar’s technology, demystifying the complex world of weather forecasting in a way that’s easy to understand and appreciate."
+  },
+  {
+    "id": "686f8848ab2105e28d7db125",
+    "readablePathId": "team-cognitive-load",
+    "title": "Team Cognitive Load as Metric to Measure Platform Impact",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/c311fcea-dc7e-4a5b-8c39-7209c319a92a.png",
+    "videoURL": "VcjwSxmSJ2o",
+    "slideURL": "https://eu1.hubs.ly/H0lGyr10",
+    "speakers": [
+      {
+        "speakerId": "67c04102a83742d992658de5",
+        "position": 1
+      }
+    ],
+    "description": "Measuring Platform impact is challenging, non-obvious, and involves custom solutions when we go beyond DORA metrics, and yet critical to prove the value it delivers to the whole organization. Inspired in Team Topologies approach, we see how Team Cognitive Load can be used as proxy metric to measure platform impact at technical and human level. In this session, we will see a real world example of how team cognitive load drove the creation of a platform team, and how its impact was measured and scaled within the organization."
+  },
+  {
+    "id": "686f8909ab2105e28d7db127",
+    "readablePathId": "core-banking-artificial-intelligence",
+    "title": "Accelerate Core Banking Modernization Using Mia-Platform and Artificial Intelligence",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/7da22dbb-6840-428e-8864-57c25857938b.png",
+    "videoURL": "w0ErAoGCWSc",
+    "slideURL": "https://eu1.hubs.ly/H0lGyN30",
+    "speakers": [
+      {
+        "speakerId": "6735dd53ba43c4fec5bdbf73",
+        "position": 1
+      },
+      {
+        "speakerId": "67f4c74da76ab1eceb6e91ee",
+        "position": 2
+      }
+    ],
+    "description": "For financial institutions, a modern digital core is imperative to respond effectively and timely to changing market needs, such as technological innovation, rising consumer expectations, new competitors, regulatory pressures, and evolving business models. During the Labs session, KPMG will present its strategic vision for accelerating core banking systems transformation. This approach uses Mia-Platform's AI-powered internal developer platform and a composable architecture framework, particularly implementing a market core platform. Adopting platform engineering and AI in a structured way is essential to ensure continuous evolution and achieve consistent operational and competitive advantage in the future."
+  },
+  {
+    "id": "686f89db1684adffac1330ce",
+    "readablePathId": "healthcare-platform",
+    "title": "Building a modern and modular Healthcare Platform",
+    "subtitle": "Enhancing Efficiency and Patient Experience (GVM)",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Healthcare",
+        "value": "685bbfb8b8fe3b7d36512d4b"
+      }
+    ],
+    "photo": "/media/f1f5f8dd-e60f-418b-9956-dc060fe4fc19.png",
+    "videoURL": "kVHufolDYVc",
+    "speakers": [
+      {
+        "speakerId": "681dfa73dab491dec731a0d1",
+        "position": 1
+      }
+    ],
+    "description": "Hospitals and healthcare facilities often struggle with fragmented workflows, administrative inefficiencies, tech debt and suboptimal patient experiences. This talk explores how a leading healthcare provider tackled these challenges by looking at scalable, modular healthcare platform designed to optimize operations and enhance care delivery through cloud and AI based solutions."
+  },
+  {
+    "id": "686f8ac1ab2105e28d7db128",
+    "readablePathId": "platforms-economy-circular",
+    "title": "Platforms and the Circular Economy of Software",
+    "subtitle": "The Azimut Marketplace Case",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/8cd13ea7-d3b8-457a-af29-bf3f1b5a8f87.png",
+    "videoURL": "uT1fUj_yESw",
+    "slideURL": "https://eu1.hubs.ly/H0lGzhH0",
+    "speakers": [
+      {
+        "speakerId": "67c04148a83742d992658de7",
+        "position": 1
+      },
+      {
+        "speakerId": "6735e5fbba43c4fec5bdbfb9",
+        "position": 2
+      }
+    ],
+    "description": "Sustainability in software development goes beyond efficient code—it extends to the entire digital ecosystem. Azimut Marketplace has redefined how software is built, distributed, and reused, embracing a circular economy model to maximize value and minimize waste. In this talk, we’ll explore how Azimut Marketplace leverages modularity, composability, and reusability to create an ecosystem where digital assets are continuously optimized, shared, and repurposed. Through real-world examples, we’ll showcase how a circular approach can reduce technological waste, foster collaboration, and accelerate innovation. If you're looking for ways to enhance and streamline your software development processes, this session is for you!"
+  },
+  {
+    "id": "686f8cf6ab2105e28d7db129",
+    "readablePathId": "platform-engineering-journey-ai",
+    "title": "Platform Engineering",
+    "subtitle": "A 4-Year Journey Through Solutions, Evolution, and the AI Challenge Ahead",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Stories",
+      "value": "67c1bd3db3efaa4f044be3e1"
+    },
+    "format": [
+      {
+        "label": "Case Study",
+        "value": "685bf291b8fe3b7d36512d5d"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "industry": [
+      {
+        "label": "Financial Services",
+        "value": "685bbfc4b8fe3b7d36512d4c"
+      }
+    ],
+    "photo": "/media/91a8c52a-4c0f-4e8c-bd1b-f1a385f7a9f4.png",
+    "videoURL": "68MJ9NXHNkA",
+    "slideURL": "https://eu1.hubs.ly/H0lGD6m0",
+    "speakers": [
+      {
+        "speakerId": "67c0418fb3efaa4f044be3da",
+        "position": 1
+      }
+    ],
+    "description": "Platform engineering has rapidly evolved over the past four years, reshaping how organizations design, deploy, and scale infrastructure. In this session, I will share my journey through this transformation—highlighting key technical solutions, organizational shifts, and the emerging challenge of AI-driven automation. As automation continues to evolve, AI presents both opportunities and uncertainties. While not yet a fully realized experience, AI is set to redefine development roles, requiring engineers to rethink how they build and operate platforms. How can we prepare for this shift? What skills will be essential to remain relevant in a landscape increasingly shaped by intelligent automation? This session will provide insights into real-world implementations, lessons learned, and forward-looking strategies for navigating the future of platform engineering."
+  },
+  {
+    "id": "686f8dd21684adffac1330d2",
+    "readablePathId": "platform-engineering-innovation",
+    "title": "From Zero to Platform Engineering",
+    "subtitle": "A 15-Minute Kickstart",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Lightning Talk",
+        "value": "685bf262b8fe3b7d36512d5c"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/7270b5e3-0bbb-47a8-bf70-906331f280e9.png",
+    "videoURL": "r_oSfIOemIs",
+    "slideURL": "https://eu1.hubs.ly/H0lGDLw0",
+    "speakers": [
+      {
+        "speakerId": "67cefcb5a83742d992658e0a",
+        "position": 1
+      }
+    ],
+    "description": "The cloud native landscape has become a complex, fast-evolving ecosystem. Kubernetes has established itself as the industry standard for running containerized applications and DevOps seemed to be the solution for bridging the gap between Devs and Ops. However, the reality showed that this model doesn't scale well and as organizations grow, they start feeling the need of streamlined, self-service platforms that accelerate innovation while maintaining security and reliability. This talk will introduce the fundamentals of platform engineering, exploring what developer platforms are, why they matter, and how to get started. We’ll also highlight common pitfalls to avoid, from missing a clear platform-strategy to neglecting developer experience. Whether you're new to platform engineering or looking for best practices, this session will give you a solid foundation to begin your journey."
+  },
+  {
+    "id": "686f8e4c1684adffac1330d3",
+    "readablePathId": "key-takeaways-2025",
+    "title": "Key Takeaways & Insights",
+    "subtitle": "Wrapping Up Platmosphere 2025",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      },
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/65879082-e7c5-4dde-84b2-7ba8dd5e1f86.png",
+    "videoURL": "SwweXOcTgO8",
+    "slideURL": "https://eu1.hubs.ly/H0lGFz40",
+    "speakers": [
+      {
+        "speakerId": "67c028ccb3efaa4f044be3d3",
+        "position": 1
+      },
+      {
+        "speakerId": "67c0288da83742d992658ddb",
+        "position": 2
+      },
+      {
+        "speakerId": "67bf44517e341a73b74f067c",
+        "position": 3
+      },
+      {
+        "speakerId": "6735f78eba43c4fec5bdbfd5",
+        "position": 4
+      },
+      {
+        "speakerId": "6735f7e2ba43c4fec5bdbfd7",
+        "position": 5
+      },
+      {
+        "speakerId": "6735de76ba43c4fec5bdbf7d",
+        "position": 6
+      }
+    ],
+    "description": "As Platmosphere 2025 comes to a close, let's recap key insights from the event, celebrate the connections made, and look ahead to the future of platform innovation!"
+  },
+  {
+    "id": "686f8f90ab2105e28d7db12c",
+    "readablePathId": "platform-thinking-sustainable-growth",
+    "title": "Future-Proof Your Business",
+    "subtitle": "Embracing Platform Thinking for Sustainable Growth",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Digital Transformation",
+        "value": "685bf2d8b8fe3b7d36512d61"
+      }
+    ],
+    "photo": "/media/ef18ef47-e872-4e50-b203-6f17a81dbfdb.png",
+    "videoURL": "1LfGVqOPczU",
+    "slideURL": "https://eu1.hubs.ly/H0lGGjC0",
+    "speakers": [
+      {
+        "speakerId": "67c0297ea83742d992658dde",
+        "position": 1
+      },
+      {
+        "speakerId": "67c02921a83742d992658ddc",
+        "position": 2
+      }
+    ],
+    "description": "In an era where platform-based companies dominate global markets, established firms face mounting pressure to innovate while preserving their core strengths. Platform Thinking offers a transformative pathway for these organizations, turning legacy assets into dynamic ecosystems of value creation. Drawing on our comprehensive study of 140 platform initiatives within the S&P 500, this speech will introduce the concept of Platform Thinking, demonstrate its relevance for traditional businesses, and present five critical challenges it can address: - Enhancing or Enabling Transactions Among Existing Stakeholders - Solving Customers’ Needs by Onboarding New Stakeholders - Complementing Products Through Others’ Capabilities - Data Exploitation - Data Harvesting Attendees will gain insights into how Platform Thinking reshapes business models, fosters collaboration, and drives competitive advantage in established firms, supported by compelling real-world examples from our research."
+  },
+  {
+    "id": "686f9159ab2105e28d7db12e",
+    "readablePathId": "platform-engineering-self-hosted-agentic-architecture",
+    "title": "How Platform Engineering Streamlines the End-To-End Delivery of a Self-Hosted Agentic Architecture",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/be5c5adb-b399-4365-a343-4a733f1efbe9.png",
+    "videoURL": "26QDKKkg7hE",
+    "slideURL": "https://eu1.hubs.ly/H0lGFz40",
+    "speakers": [
+      {
+        "speakerId": "67c04148a83742d992658de7",
+        "position": 1
+      },
+      {
+        "speakerId": "6808c344e7cca89935df0e84",
+        "position": 2
+      }
+    ],
+    "description": "In this session, we’ll explore how platform engineering enables the seamless delivery of an AI-powered agentic architecture—from deploying open-source models to building and releasing a simple agent that interacts with real-world applications. Through a joint demo by Mia-Platform and ConfidentialMind, we’ll demonstrate how a GPU-powered cluster hosts both the ConfidentialMind Control Plane and the AI models, while the Mia-Platform Console serves as the unified entry point for developers. We’ll walk through the creation of a multi-tool agent built from templates available on the Mia-Platform Marketplace and powered by models deployed using the ConfidentialMind Control Plane. This agent interacts with our data to act as a shopping assistant for customers, providing product recommendations, stock availability, and suggestions for the nearest store based on the user’s location. Attendees will gain a clear understanding of how platform engineering practices simplify the complexities of AI model deployment, application development, and runtime management in a production-grade, scalable environment."
+  },
+  {
+    "id": "686fb1791684adffac1330d4",
+    "readablePathId": "ai-composable-platform",
+    "title": "Unleashing AI’s Full Potential with Composable Platforms",
+    "subtitle": "The Future of Scalable Innovation",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Business",
+      "value": "67c1bd29b3efaa4f044be3e0"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Composability",
+        "value": "685bf2ccb8fe3b7d36512d60"
+      },
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/a4583240-4e20-4de5-901e-70783de9388c.png",
+    "videoURL": "yU6omFxtZLM",
+    "speakers": [
+      {
+        "speakerId": "6735f6c8ba43c4fec5bdbfcf",
+        "position": 1
+      },
+      {
+        "speakerId": "6735deaaba43c4fec5bdbf7f",
+        "position": 2
+      }
+    ],
+    "description": "In the rapidly evolving landscape of artificial intelligence, businesses need scalable, flexible architectures to fully harness AI’s potential. Composable platforms provide the agility to seamlessly integrate AI-driven capabilities, accelerating innovation, enhancing efficiency, and creating personalized experiences. This talk explores how organizations can leverage a composable approach to quickly adapt to emerging AI advancements, optimize data workflows, and future-proof their digital ecosystems."
+  },
+  {
+    "id": "686fb220ab2105e28d7db131",
+    "readablePathId": "ai-agentic-devops",
+    "title": "AI Agentic DevOps",
+    "subtitle": "The Future of Software Engineering and Development",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/f4461e86-1130-47d3-8bf0-277a00221a5e.png",
+    "videoURL": "c0Hk6DRQkx0",
+    "slideURL": "https://eu1.hubs.ly/H0lGGz00",
+    "speakers": [
+      {
+        "speakerId": "67dc41375b422f0c6e035b0a",
+        "position": 1
+      },
+      {
+        "speakerId": "6735e23bba43c4fec5bdbf9d",
+        "position": 2
+      },
+      {
+        "speakerId": "682591fab75c566dc300b4d6",
+        "position": 3
+      },
+      {
+        "speakerId": "682591cab75c566dc300b4d5",
+        "position": 4
+      }
+    ],
+    "description": "AI and GenAI will revolutionize in the next years the way software is designed, developed and maintained. AI agents can support all the phases of the software development life cycle form user requirements definition to architecture design, coding generation, testing and deployment providing new efficient tool for software monitoring, maintenance and continuous improvement. DevOps and DevOps platforms will evolve to support the development of these agents that will further industrialize and automate the way we build new applications. AI agents will support the definition of functional requirements and the definition of test cases; they will provide advisory about architectures and software modules to be built, generating draft source code to be reviewed and improved by software developers. AI is anticipated to be invaluable to all aspects of modern software companies, empowering software engineers to work more efficiently and concentrate their abilities on valuable tasks."
+  },
+  {
+    "id": "686fb2c2ab2105e28d7db133",
+    "readablePathId": "infrastructure-management",
+    "title": "Unify Your Stack",
+    "subtitle": "Infrastructure Management with Mia-Platform",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      }
+    ],
+    "photo": "/media/79364763-f671-43ba-ae91-605d39047288.png",
+    "videoURL": "RtGEnGz3dcQ",
+    "slideURL": "https://eu1.hubs.ly/H0lGHn60",
+    "speakers": [
+      {
+        "speakerId": "6735e433ba43c4fec5bdbfa9",
+        "position": 1
+      },
+      {
+        "speakerId": "6735e0ceba43c4fec5bdbf8d",
+        "position": 2
+      }
+    ],
+    "description": "In the evolving landscape of software development, platform engineering is essential for enabling faster feature releases. This talk will focus on how to empower both developers and platform engineers to manage infrastructure effectively while maintaining control over the release process and defining clear policies. We will discuss various infrastructure management models that can be implemented in platform engineering, addressing the balance between centralized oversight and developer autonomy. Key questions include: How do we set boundaries for developers? When can we grant them the freedom to innovate? Join us to discover how Mia-Platform facilitates these strategies, using Terraform as a practical example. The session will include a live demo to illustrate how to adopt these patterns, streamline infrastructure management, and enhance development workflows. Learn how to unify your stack and drive efficiency in your organization."
+  },
+  {
+    "id": "686fb35aab2105e28d7db134",
+    "readablePathId": "data-sovereignty",
+    "title": "Data Sovereignty",
+    "subtitle": "Why We Should All Care About It",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Lightning Talk",
+        "value": "685bf262b8fe3b7d36512d5c"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Data",
+        "value": "685bf2c2b8fe3b7d36512d5f"
+      }
+    ],
+    "photo": "/media/7405152a-c860-43cf-8ab3-0c9bc11993df.png",
+    "videoURL": "v5o7LA9UikE",
+    "slideURL": "https://eu1.hubs.ly/H0lGHFS0",
+    "speakers": [
+      {
+        "speakerId": "681b0a509ae35b799e37e696",
+        "position": 1
+      }
+    ],
+    "description": "In today’s rapidly evolving digital landscape, data sovereignty has become more than a regulatory concept - it is now a strategic imperative. As geopolitical tensions reshape global technology alliances, and as Europe seeks greater autonomy in critical digital infrastructure, the call for technological independence has never been stronger. This presentation explores data sovereignty as a foundational element in achieving that independence, highlighting its role not just in data localization, but in ensuring control, transparency, and trust in the digital ecosystem."
+  },
+  {
+    "id": "686fb3cfab2105e28d7db136",
+    "readablePathId": "agentic-ai-system",
+    "title": "Agentic AI System",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/c566be87-7a2a-458e-936c-283c06d74099.png",
+    "videoURL": "R7-vYlv5riw",
+    "speakers": [
+      {
+        "speakerId": "67c0400eb3efaa4f044be3d7",
+        "position": 1
+      }
+    ],
+    "description": "Join Agentic AI Systems session where you will explore the rise of agentic AI and its transformative impact on user interfaces. Pavel will delve into common design patterns, architectural guidance, and the importance of quality and safety in AI systems. We will also discuss the role of Responsible AI in ensuring ethical and effective AI deployment. Don't miss this opportunity to learn about the latest advancements and best practices in AI technology."
+  },
+  {
+    "id": "686fb4b2ab2105e28d7db137",
+    "readablePathId": "composable-agentic-architecture",
+    "title": "Composable Architectures",
+    "subtitle": "From Application Development to Agentic Architecture",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Live Demo",
+        "value": "685bf29ab8fe3b7d36512d5e"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Composability",
+        "value": "685bf2ccb8fe3b7d36512d60"
+      }
+    ],
+    "photo": "/media/02f9de12-7a31-481e-ae88-7f923c39ec71.png",
+    "videoURL": "9soTNqyHSDg",
+    "slideURL": "https://eu1.hubs.ly/H0lGJ1K0",
+    "speakers": [
+      {
+        "speakerId": "67e26df3679932a0133529de",
+        "position": 1
+      },
+      {
+        "speakerId": "67e26dc8679932a0133529dc",
+        "position": 2
+      },
+      {
+        "speakerId": "67e26e105b422f0c6e035b12",
+        "position": 3
+      }
+    ],
+    "description": "Generative AI has radically transformed organizations, reshaping strategies, business models, and operations. But evolution doesn’t stop here. A new paradigm is emerging: agentic architectures, pushing AI-driven strategies even further. However, as with any disruptive technology, true value comes from reuse and composability -principles we’ve already successfully applied in Composable Architectures. So, how can we extend the logic of Composable Architectures to the world of AI Agents? Developer Platforms offer a powerful foundation. In this session, we’ll explore practical examples with Mia-Platform, demonstrating how to build scalable, reusable, and efficient AI-driven systems."
+  },
+  {
+    "id": "686fb5c41684adffac1330d8",
+    "readablePathId": "observability-generative-ai",
+    "title": "From AI Agents to Llms as Judge",
+    "subtitle": "Reshaping Observability in the Era of GenerativeAI",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Tech",
+      "value": "67c1bd4ba83742d992658dea"
+    },
+    "format": [
+      {
+        "label": "Talk",
+        "value": "685bc00ab8fe3b7d36512d50"
+      }
+    ],
+    "topics": [
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/89b8333d-b652-4e0b-a984-c2f87d47a6be.png",
+    "videoURL": "VAe27RGUOJ8",
+    "slideURL": "https://eu1.hubs.ly/H0lGKkX0",
+    "speakers": [
+      {
+        "speakerId": "67c041c3b3efaa4f044be3dc",
+        "position": 1
+      }
+    ],
+    "description": "GenerativeAI is rapidly establishing itself as an emerging technology with many use cases. For Observability, integrating GenerativeAI allows more flexibility and automation in the operations workflows. My talk will explore how AI Agents expand the Observability workflows and how we can use observability to further trace GenerativeAI 's efficiency. My talk will explore the architecture of transformers and GenerativeAI, how these basic Machine Learning architecture blend to create the AI Agents workflows. Then we will deep dive in the use cases for Observability explaining how GenerativeAI can trigger fully automated workflows. Working with LLMs as Judge is a new concept for both GenerativeAI and Observability and we will analyze the benefits they bring to the overall architecture. The audience will gain insights into the newer developments of GenerativeAI into the Observability realms, how they can apply typical Machine Learning workflows to DevOps infrastructures."
+  },
+  {
+    "id": "686fb658ab2105e28d7db139",
+    "readablePathId": "mia-platform-v14-unleashed",
+    "title": "v14 Unleashed",
+    "subtitle": "Ask Us Anything, We'll Build It Live",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Labs",
+      "value": "67c1bd55a83742d992658deb"
+    },
+    "format": [
+      {
+        "label": "Live Demo",
+        "value": "685bf29ab8fe3b7d36512d5e"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      },
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/d2dd75d4-10e8-4c1b-bf20-6b89d3c18d5c.png",
+    "videoURL": "kdmXNOjqw20",
+    "speakers": [
+      {
+        "speakerId": "6735dba2ba43c4fec5bdbf67",
+        "position": 1
+      }
+    ],
+    "description": "Join our CTO Giulio Roggero for a raw, no-slides, all-hands-on-keyboard session that brings Mia-Platform V14 to life. Fresh from the keynote stage, this interactive live demo dives deep into the newest capabilities of our platform — driven by your questions. Curious how we enable \"Everything as Code\"? Want to see our intelligent DevX companion in action? Wondering what “Composable IDP” really looks like under the hood? Giulio will show it live, explaining it as he builds. This is your chance to stress-test the latest release and see what V14 can really do—no filters, no fluff, just code and conversations. Bring your questions. We'll bring the keyboard."
+  },
+  {
+    "id": "686fb6eeab2105e28d7db13b",
+    "readablePathId": "welcome-2025",
+    "title": "Welcome to Platmosphere 2025!!",
+    "edition": {
+      "label": "2025",
+      "value": "68624e100a84f049b9abb432"
+    },
+    "track": {
+      "label": "Keynote",
+      "value": "67c1bd15b3efaa4f044be3df"
+    },
+    "format": [
+      {
+        "label": "Plenary Session",
+        "value": "685bc005b8fe3b7d36512d4f"
+      }
+    ],
+    "topics": [
+      {
+        "label": "Platform Engineering",
+        "value": "685bc02db8fe3b7d36512d51"
+      },
+      {
+        "label": "AI",
+        "value": "685bc033b8fe3b7d36512d52"
+      }
+    ],
+    "photo": "/media/7571c054-87bd-4da7-9f68-c6d7d49fc788.png",
+    "videoURL": "enTkqZcn8xo",
+    "speakers": [
+      {
+        "speakerId": "67bf44517e341a73b74f067c",
+        "position": 1
+      },
+      {
+        "speakerId": "67c028ccb3efaa4f044be3d3",
+        "position": 2
+      },
+      {
+        "speakerId": "67c0288da83742d992658ddb",
+        "position": 3
+      },
+      {
+        "speakerId": "6735f78eba43c4fec5bdbfd5",
+        "position": 4
+      },
+      {
+        "speakerId": "6735f7e2ba43c4fec5bdbfd7",
+        "position": 5
+      }
+    ],
+    "description": "Kickstart your Platmosphere experience with our opening welcome talk! Join us as we set the stage for an exciting event ahead, sharing key insights, highlights, and what to expect throughout the day."
+  }
+]

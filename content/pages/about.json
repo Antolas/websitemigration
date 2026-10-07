@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "eyebrow": " ABOUT PLATMOSPHERE 2026",
+    "title": "Master The Vibe ",
+    "date": "26th MAY 2026",
+    "city": "Milan",
+    "venue": "Talent Garden Calabiana"
+  },
+  "intro": [
+    "<hl>Master The Vibe</hl> is where speed meets enterprise standards. AI is changing how we build – prompt-first, pattern-driven – while vibe coding turns intuition into software. In the enterprise, that flow needs focus.",
+    "This year we explore how AI-native workflows and developer platforms create a <hl>new rhythm for engineering:</hl> ideas to production with security, compliance, and governance built in.",
+    "Platmosphere gathers the people making this balance real, shifting from infrastructure-first to the full development lifecycle. The tracks span business & ROI, real-world stories, and hands-on labs. The throughline: <hl>velocity from AI, trust from guardrails.</hl>",
+    "Why attend? <hl>Learn</hl> what works, <hl>compare</hl> with peers, and bring home reference designs that <hl>win</hl> buy-in– from developers who want freedom and leaders who need proof.",
+    "Your platform, your pace–now. Master The Vibe, <hl>turn promises into production</hl>. Don't miss the room where the next playbook takes shape."
+  ],
+  "video": {
+    "embedUrl": "https://player.vimeo.com/video/1195989452?h=d7efc9c864",
+    "recapLabel": "Watch 2026 video recap",
+    "recapUrl": "https://youtu.be/klkoXmoybO8"
+  },
+  "venue": {
+    "name": [
+      "Talent Garden",
+      "Calabiana"
+    ],
+    "address": "Via Arcivescovo Calabiana, 6, 20139 Milan",
+    "description": [
+      "In the heart of the <b>Porta Romana district</b>, within one of Milan's most vibrant industrial conversion areas: it is the <b>flagship campus</b> and a global benchmark for the digital and creative community.",
+      "The ultimate <b>innovation hub</b> spanning 8,500 m² of design and technology."
+    ],
+    "image": "/Platmosphere_2025.png",
+    "mapEmbedUrl": "https://www.google.com/maps/embed/v1/place?key=AIzaSyAk2CyE-FFdo27H8dkIo11ZuwFHNndMDfE&q=Talent+Garden,Via+Arcivescovo+Calabiana,6,Milano&center=45.4441032,9.2082325&zoom=16",
+    "transports": [
+      {
+        "icon": "subway.svg",
+        "label": "SUBWAY",
+        "value": "M3 - Lodi TIBB"
+      },
+      {
+        "icon": "bus.svg",
+        "label": "BUS",
+        "value": "Line 65"
+      },
+      {
+        "icon": "train.svg",
+        "label": "TRAIN",
+        "value": "Line S9"
+      }
+    ],
+    "mapDownloadUrl": "https://mia-platform.eu/wp-content/uploads/2026-05-26-Platmosphere-Location-Map.pdf"
+  },
+  "sustainability": {
+    "eyebrow": "FOR A SUSTAINABLE DEVELOPMENT",
+    "title": [
+      " A Fully Carbon-Neutral ",
+      "Event"
+    ],
+    "logo": "/sustanabilityLogo2026.png",
+    "paragraphs": [
+      "We design Platmosphere to <b>minimize impact end-to-end</b>. We shortlist suppliers with clear ESG practices, prioritize local and seasonal catering, reduce single-use materials, and choose merch that's durable, recyclable, or made from certified low-impact fabrics. The venue is reachable by public transport, and we encourage train, metro, bike, or shared rides—with practical guidance provided to all attendees. Thanks to this initiative, we're contributing to the Sustainable Development Goals.",
+      "We also account for what we can't eliminate. Together with Up2You, we measure the event's residual emissions and fund high-quality climate projects to <b>compensate 100% of our footprint.</b> The goal: an experience that's inspiring for people and responsible for the planet."
+    ]
+  },
+  "impact": {
+    "eyebrow": "KEY NUMBERS",
+    "title": "Every Kg Counts",
+    "numbers": [
+      {
+        "value": "7.4M Ton",
+        "label": "CO2 captured annually"
+      },
+      {
+        "value": "4.32K",
+        "label": "Protected animal species"
+      },
+      {
+        "value": "1.37M",
+        "label": "MWh Renewable energy produced"
+      },
+      {
+        "value": "1.62M",
+        "label": "Total hectares saved"
+      },
+      {
+        "value": "75.1K",
+        "label": "Plant species preserved"
+      }
+    ],
+    "reportLabel": "Read the Report 2025",
+    "reportUrl": "https://brands.u2y.io/mia-platform?language=en"
+  },
+  "faqs": [
+    {
+      "title": "What’s the Best Way To Reach the Venue?",
+      "description": "The address of the venue is Talent Garden Calabiana, via Calabiana 6, Milano. We recommend taking Metro Line M3 (Yellow Line) and getting off at Lodi T.I.B.B.. The venue is just a 2-minutes walk from the station. ",
+      "order": 1
+    },
+    {
+      "title": "Is There Parking Nearby?",
+      "description": "Talent Garden Calabiana has limited parking spots, and there are several paid garages in the area. If possible, we suggest using public transport.",
+      "order": 2
+    },
+    {
+      "title": "Is the Venue Accessible?",
+      "description": "Yes, the venue is fully wheelchair accessible. If you need any assistance on-site, our staff is happy to help.",
+      "order": 3
+    },
+    {
+      "title": "Will Food and Drinks Be Provided?",
+      "description": "Yes! We’ll provide welcome coffee, coffee breaks, lunch, and a final aperitivo. Just bring your appetite and enjoy.",
+      "order": 4
+    },
+    {
+      "title": "I Have Dietary Restrictions – What Should I Do?",
+      "description": "No worries! We’ve made sure to include a variety of options at the event, including vegetarian, vegan, and gluten-free choices. If you have any specific concerns or additional needs, feel free to speak with a member of the catering staff - they’ll be happy to help.",
+      "order": 5
+    },
+    {
+      "title": "Is There Wi-Fi at the Venue?",
+      "description": "Yes! Free Wi-Fi will be available. You’ll find the login details on your badge. ",
+      "order": 6
+    },
+    {
+      "title": "Can I Leave and Re-Enter During the Day?",
+      "description": "Absolutely! Just keep your badge with you and you can come and go as needed.",
+      "order": 7
+    },
+    {
+      "title": "Is There a Space To Network With Other Attendees?",
+      "description": "Yes! Enjoy dedicated networking areas, informal coffee breaks, and the closing aperitivo to meet fellow attendees and speakers. You’re also invited to visit the Platform Experience Hub, where you can chat with our Experts, explore the latest in AI-powered platforms, solve coding challenges to win special prizes, and learn how to join our Expert Program.",
+      "order": 8
+    }
+  ]
+}

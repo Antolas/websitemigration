@@ -1,0 +1,51 @@
+{
+  "sponsors": [
+    {
+      "name": "Bowman",
+      "logo": "/media/7124caa0-f5f6-41d3-9252-2059cd912b05.png"
+    },
+    {
+      "name": "EY",
+      "logo": "/media/e1b0a5df-67ff-42a8-a084-ceecc6639d25.png"
+    },
+    {
+      "name": "evoila",
+      "logo": "/media/73e864de-48f2-4c27-b360-75789f9a6b7b.png"
+    },
+    {
+      "name": "Orbyta",
+      "logo": "/media/620178a7-ca0e-42ab-9670-59b1589acdd4.svg"
+    }
+  ],
+  "mediaPartners": [
+    {
+      "name": "CloudConf",
+      "logo": "/media/0d111772-1fc4-42f7-9eb3-5f1bcb59dd60.webp"
+    },
+    {
+      "name": "Codemotion",
+      "logo": "/media/a092b182-13fe-438f-9f2d-1908916d659c.png"
+    },
+    {
+      "name": "Grusp",
+      "logo": "/media/ebf97bbf-9c65-42a7-8ac6-2b9d5a44ad85.webp"
+    },
+    {
+      "name": "Kube Careers",
+      "logo": "/media/f3eebaa3-8270-436e-b892-8fe322d43e7b.png"
+    },
+    {
+      "name": "Kube Events",
+      "logo": "/media/94d920be-4aa7-4274-8d79-15bc2c0a6d46.png"
+    },
+    {
+      "name": "Platform Thinking Hub",
+      "logo": "/media/17144ef5-f7b7-451d-9cc5-5043f3208a1f.png"
+    },
+    {
+      "name": "SheTech",
+      "logo": "/media/60c31f7f-9fc5-4125-83b2-152d067b1fd5.svg"
+    }
+  ],
+  "hubspotFormId": "0b23484c-6e97-445a-af80-ac95188beeda"
+}
