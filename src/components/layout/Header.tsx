@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import Link from 'next/link';
 import MobileNavbar from './MobileNavbar';
 import NavbarButton from './NavbarButton';

@@ -96,12 +96,14 @@ export function resolveSpeakers(refs: SpeakerRef[] = []): Speaker[] {
 
 export interface TalkLink {
   title: string;
-  link: string;
+  href: string;
+  /** Open in a new tab (used by the archive editions, which link to recordings). */
+  external?: boolean;
 }
 
 /** "Track : Talk title" links shown in the speaker drawer. */
 export function getSpeakerTalkLinks(speakerId: string): TalkLink[] {
   return talks
     .filter((t) => t.speakers?.some((s) => s.speakerId === speakerId))
-    .map((t) => ({ title: `${getTrack(t.trackId)?.title || ''} : ${t.title || ''}`, link: t.readablePathId }));
+    .map((t) => ({ title: `${getTrack(t.trackId)?.title || ''} : ${t.title || ''}`, href: `/talks/${t.readablePathId}` }));
 }

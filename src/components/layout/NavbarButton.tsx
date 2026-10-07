@@ -124,7 +124,9 @@ function PastEditionsMenu({ selected, text = 'Past Editions' }: { selected: bool
         MenuListProps={{ 'aria-labelledby': 'past-editions-button' }}
         anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
         transformOrigin={{ vertical: 'top', horizontal: 'left' }}
-        sx={{ '& .MuiPaper-root': { marginTop: '8px', minWidth: '180px', borderRadius: '8px', boxShadow: '0px 4px 16px rgba(0, 0, 0, 0.1)' } }}
+        sx={{
+          '& .MuiPaper-root': { marginTop: '8px', minWidth: '180px', borderRadius: '8px', boxShadow: '0px 4px 16px rgba(0, 0, 0, 0.1)' },
+        }}
       >
         {item('/2025', 'Chapter 2025')}
         {item('/2024', 'Chapter 2024')}

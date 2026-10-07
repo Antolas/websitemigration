@@ -37,9 +37,7 @@ export default function LinkButton({ icon, iconAtTheStart, darkMode, children, h
       }}
     >
       {icon && iconAtTheStart && <Icon name={icon} />}
-      <div style={{ marginRight: iconAtTheStart ? '0px' : '8px', marginLeft: iconAtTheStart ? '8px' : '0px' }}>
-        {children}
-      </div>
+      <div style={{ marginRight: iconAtTheStart ? '0px' : '8px', marginLeft: iconAtTheStart ? '8px' : '0px' }}>{children}</div>
       {icon && !iconAtTheStart && <Icon name={icon} />}
     </Button>
   );

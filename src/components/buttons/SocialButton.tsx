@@ -17,7 +17,13 @@ interface SocialButtonProps {
 }
 
 /** Round outlined social icon button. */
-export default function SocialButton({ socialMediaName, socialMediaUrl, lightMode, handleLinkedInShare, copyUrlOfPage }: SocialButtonProps) {
+export default function SocialButton({
+  socialMediaName,
+  socialMediaUrl,
+  lightMode,
+  handleLinkedInShare,
+  copyUrlOfPage,
+}: SocialButtonProps) {
   const theme = useEditionTheme();
   const [copied, setCopied] = useState(false);
 

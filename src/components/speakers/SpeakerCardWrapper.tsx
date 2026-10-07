@@ -7,13 +7,14 @@ import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { styled, type Theme } from '@mui/material/styles';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import { useState, type KeyboardEvent, type ReactNode } from 'react';
 import IconButtonPrimary from '@/components/buttons/IconButtonPrimary';
 import SocialButton from '@/components/buttons/SocialButton';
 import Icon from '@/components/common/Icon';
 import type { Speaker, TalkLink } from '@/lib/content';
-import { theme as baseTheme } from '@/theme/theme';
+import type { Edition } from '@/theme/palettes';
+import { getTheme } from '@/theme/theme';
 
 type SpeakerWithTalks = Speaker & { talks?: TalkLink[] };
 
@@ -22,39 +23,49 @@ interface DrawerProps {
   setOpen: (open: boolean) => void;
   speaker: SpeakerWithTalks;
   coverPhoto: string;
+  edition: Edition;
+  dividerGradient?: string;
 }
 
-const DesktopDrawer = styled(SwipeableDrawer)(({ theme }) => ({
-  '@keyframes fadeIn': { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
-  '.MuiDrawer-paper': { animation: 'fadeIn 0.5s ease-out forwards' },
-  '& .MuiPaper-root': { height: '100%', width: '50%', background: theme.palette.primary['900'] },
-  '& .MuiBox-root': {},
-  '& .MuiDivider-root': { background: 'linear-gradient(90deg, #71D9BA 0%, #EAFEF3 100%)', height: '8px' },
-  '.info-details-container': {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '48px',
-    padding: '52px 40px',
-    color: theme.palette.primary['50'],
-  },
-  '.info-details-section': { display: 'flex', flexDirection: 'column', gap: '20px' },
-  '.talks-details-container': {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '48px',
-    padding: '52px 40px',
-    color: theme.palette.primary['50'],
-  },
-  '.talk-details-section': { display: 'flex', flexDirection: 'column', gap: '20px' },
-  '.talks-list': { display: 'flex', flexDirection: 'column', gap: '8px' },
-  '.socials-container': { display: 'flex', gap: '12px' },
-  '.main-info': { display: 'flex', flexDirection: 'column', width: 'calc(100% - 343px)' },
-  '.card-main-content-container': { display: 'flex', alignItems: 'flex-start', gap: '12px', background: 'white' },
-  '.close-button-container': { height: '82px', textAlign: 'end', padding: '8px' },
-  '.info-container': { display: 'flex', width: '288px', flexDirection: 'column', alignItems: 'flex-start', gap: '30px' },
-  '.speaker-info': { display: 'flex', flexDirection: 'column', gap: '12px' },
-  '.image-speaker': { width: '330px', height: '330px' },
-}));
+const DIVIDER_GRADIENTS: Record<Edition, string> = {
+  current: 'linear-gradient(90deg, #71D9BA 0%, #EAFEF3 100%)',
+  '2025': 'linear-gradient(90deg, #D2C4F4 0%, #5F36DD 100%)',
+  '2024': 'linear-gradient(90deg, #F0F7C4 0%, #8EEAE1 19.54%, #8EC7FF 96.48%)',
+};
+
+const DesktopDrawer = styled(SwipeableDrawer, { shouldForwardProp: (p) => p !== 'dividerGradient' })<{ dividerGradient: string }>(
+  ({ theme, dividerGradient }) => ({
+    '@keyframes fadeIn': { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
+    '.MuiDrawer-paper': { animation: 'fadeIn 0.5s ease-out forwards' },
+    '& .MuiPaper-root': { height: '100%', width: '50%', background: theme.palette.primary['900'] },
+    '& .MuiBox-root': {},
+    '& .MuiDivider-root': { background: dividerGradient, height: '8px' },
+    '.info-details-container': {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '48px',
+      padding: '52px 40px',
+      color: theme.palette.primary['50'],
+    },
+    '.info-details-section': { display: 'flex', flexDirection: 'column', gap: '20px' },
+    '.talks-details-container': {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '48px',
+      padding: '52px 40px',
+      color: theme.palette.primary['50'],
+    },
+    '.talk-details-section': { display: 'flex', flexDirection: 'column', gap: '20px' },
+    '.talks-list': { display: 'flex', flexDirection: 'column', gap: '8px' },
+    '.socials-container': { display: 'flex', gap: '12px' },
+    '.main-info': { display: 'flex', flexDirection: 'column', width: 'calc(100% - 343px)' },
+    '.card-main-content-container': { display: 'flex', alignItems: 'flex-start', gap: '12px', background: 'white' },
+    '.close-button-container': { height: '82px', textAlign: 'end', padding: '8px' },
+    '.info-container': { display: 'flex', width: '288px', flexDirection: 'column', alignItems: 'flex-start', gap: '30px' },
+    '.speaker-info': { display: 'flex', flexDirection: 'column', gap: '12px' },
+    '.image-speaker': { width: '330px', height: '330px' },
+  }),
+);
 
 const MobileDrawer = styled(SwipeableDrawer)(({ theme }) => ({
   '& .MuiPaper-root': {
@@ -87,7 +98,8 @@ const toggleHandler = (setOpen: (v: boolean) => void) => (value: boolean) => (ev
   setOpen(value);
 };
 
-function TalksAndBio({ speaker, bioVariant }: { speaker: SpeakerWithTalks; bioVariant: 'bodyXS' | 'bodyS' }) {
+function TalksAndBio({ speaker, bioVariant, edition }: { speaker: SpeakerWithTalks; bioVariant: 'bodyXS' | 'bodyS'; edition: Edition }) {
+  const baseTheme = getTheme(edition);
   return (
     <div className="info-details-container">
       {!!speaker.talks?.length && (
@@ -96,10 +108,11 @@ function TalksAndBio({ speaker, bioVariant }: { speaker: SpeakerWithTalks; bioVa
             <Typography variant="h2">TALKS</Typography>
           </div>
           <div className="talks-list">
-            {speaker.talks.map((talk) => (
+            {speaker.talks.map((talk, i) => (
               <MuiLink
-                key={talk.link}
-                href={`/talks/${talk.link}`}
+                key={i}
+                href={talk.href}
+                {...(talk.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 underline="always"
                 sx={{
                   textDecoration: 'underline',
@@ -144,11 +157,12 @@ function Socials({ speaker, lightMode }: { speaker: Speaker; lightMode?: boolean
   );
 }
 
-function SpeakerDrawerDesktop({ open, setOpen, speaker, coverPhoto }: DrawerProps) {
+function SpeakerDrawerDesktop({ open, setOpen, speaker, coverPhoto, edition, dividerGradient }: DrawerProps) {
   const toggle = toggleHandler(setOpen);
   return (
     <div>
       <DesktopDrawer
+        dividerGradient={dividerGradient || DIVIDER_GRADIENTS[edition]}
         anchor="right"
         open={open}
         onClose={toggle(false)}
@@ -182,14 +196,14 @@ function SpeakerDrawerDesktop({ open, setOpen, speaker, coverPhoto }: DrawerProp
             </div>
           </div>
           <Divider />
-          <TalksAndBio speaker={speaker} bioVariant="bodyXS" />
+          <TalksAndBio speaker={speaker} bioVariant="bodyXS" edition={edition} />
         </Box>
       </DesktopDrawer>
     </div>
   );
 }
 
-function SpeakerDrawerMobile({ open, setOpen, speaker, coverPhoto }: DrawerProps) {
+function SpeakerDrawerMobile({ open, setOpen, speaker, coverPhoto, edition }: DrawerProps) {
   const toggle = toggleHandler(setOpen);
   return (
     <div>
@@ -200,7 +214,14 @@ function SpeakerDrawerMobile({ open, setOpen, speaker, coverPhoto }: DrawerProps
               <IconButtonPrimary onClick={toggle(false)} icon={<Icon name="x-menu.svg" />} />
             </div>
             <div className="image-speaker">
-              <Image src={coverPhoto} alt="speaker image mobile" sizes="100vw" height={0} width={0} style={{ width: '100%', height: '100%' }} />
+              <Image
+                src={coverPhoto}
+                alt="speaker image mobile"
+                sizes="100vw"
+                height={0}
+                width={0}
+                style={{ width: '100%', height: '100%' }}
+              />
             </div>
             <div className="info-container">
               <div className="speaker-info">
@@ -218,7 +239,7 @@ function SpeakerDrawerMobile({ open, setOpen, speaker, coverPhoto }: DrawerProps
               <Socials speaker={speaker} />
             </div>
           </div>
-          <TalksAndBio speaker={speaker} bioVariant="bodyS" />
+          <TalksAndBio speaker={speaker} bioVariant="bodyS" edition={edition} />
         </Box>
       </MobileDrawer>
     </div>
@@ -230,10 +251,18 @@ interface SpeakerCardWrapperProps {
   speaker: Speaker;
   coverPhoto: string;
   talkLinks?: TalkLink[];
+  /** Palette used inside the drawer. */
+  edition?: Edition;
 }
 
 /** Makes a speaker card clickable: opens a drawer with bio, socials and talks. */
-export default function SpeakerCardWrapper({ children, speaker, coverPhoto, talkLinks = [] }: SpeakerCardWrapperProps) {
+export default function SpeakerCardWrapper({
+  children,
+  speaker,
+  coverPhoto,
+  talkLinks = [],
+  edition = 'current',
+}: SpeakerCardWrapperProps) {
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState<SpeakerWithTalks>(speaker);
   const isMobile = useMediaQuery((t: Theme) => t.breakpoints.down('md'));
@@ -251,9 +280,9 @@ export default function SpeakerCardWrapper({ children, speaker, coverPhoto, talk
       {children}
       {open &&
         (isMobile ? (
-          <SpeakerDrawerMobile open={open} setOpen={setOpen} speaker={current} coverPhoto={coverPhoto} />
+          <SpeakerDrawerMobile open={open} setOpen={setOpen} speaker={current} coverPhoto={coverPhoto} edition={edition} />
         ) : (
-          <SpeakerDrawerDesktop open={open} setOpen={setOpen} speaker={current} coverPhoto={coverPhoto} />
+          <SpeakerDrawerDesktop open={open} setOpen={setOpen} speaker={current} coverPhoto={coverPhoto} edition={edition} />
         ))}
     </div>
   );

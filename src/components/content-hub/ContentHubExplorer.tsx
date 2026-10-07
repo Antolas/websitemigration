@@ -11,7 +11,7 @@ import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState, type Dispatch, type KeyboardEvent, type SetStateAction } from 'react';
 import IconButtonPrimary from '@/components/buttons/IconButtonPrimary';
@@ -68,8 +68,7 @@ interface FiltersProps {
 }
 
 function Filters({ filters = [], selectedFilters = [], setSelectedFilters, searchQuery, setSearchQuery }: FiltersProps) {
-  const toggle = (value: string) =>
-    setSelectedFilters((cur) => (cur.includes(value) ? cur.filter((v) => v !== value) : [...cur, value]));
+  const toggle = (value: string) => setSelectedFilters((cur) => (cur.includes(value) ? cur.filter((v) => v !== value) : [...cur, value]));
 
   return (
     <FiltersStyled>

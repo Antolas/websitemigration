@@ -70,7 +70,11 @@ export default function MobileNavbar(_props: { callForPapersUrl?: string }) {
 
   const pastEditionEntry = (path: string, label: string) => (
     <ListItem disablePadding sx={{ width: '100%' }} key={path}>
-      <ListItemButton className="past-edition-suboption" sx={{ padding: '16px !important', width: '100%' }} onClick={() => router.push(path)}>
+      <ListItemButton
+        className="past-edition-suboption"
+        sx={{ padding: '16px !important', width: '100%' }}
+        onClick={() => router.push(path)}
+      >
         <ListItemText
           sx={{ textAlign: 'left' }}
           primary={

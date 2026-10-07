@@ -50,8 +50,7 @@ export const InsideTheTalkBannerStyled = styled('div')(({ theme }) => ({
 
 /** Dark hexagon background shared by talk and content-hub detail pages. */
 export const MainContentContainerStyled = styled('div')(({ theme }) => ({
-  background:
-    "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
+  background: "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
   color: '#FFF',
   padding: '80px 40px 0px 40px',
   display: 'flex',

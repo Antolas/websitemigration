@@ -6,32 +6,28 @@ import { siteConfig } from '@/lib/site';
 import AnnouncementBanner from './AnnouncementBanner';
 import { useBannerState } from './BannerState';
 
-const NavWrapper = styled('div', { shouldForwardProp: (p) => p !== '$hasBanner' })<{ $hasBanner: boolean }>(
-  ({ theme, $hasBanner }) => ({
-    position: 'fixed',
-    left: 0,
-    right: 0,
-    top: 0,
-    zIndex: 1200,
-    display: 'flex',
-    flexDirection: 'column',
-    padding: $hasBanner ? '0px' : '30px 0px 0px 0px',
-    paddingRight: 'inherit',
-    [theme.breakpoints.down('md')]: {
-      paddingTop: $hasBanner ? '0px' : '16px',
-      paddingLeft: 0,
-      paddingRight: 0,
-      paddingBottom: 0,
-    },
-  }),
-);
+const NavWrapper = styled('div', { shouldForwardProp: (p) => p !== '$hasBanner' })<{ $hasBanner: boolean }>(({ theme, $hasBanner }) => ({
+  position: 'fixed',
+  left: 0,
+  right: 0,
+  top: 0,
+  zIndex: 1200,
+  display: 'flex',
+  flexDirection: 'column',
+  padding: $hasBanner ? '0px' : '30px 0px 0px 0px',
+  paddingRight: 'inherit',
+  [theme.breakpoints.down('md')]: {
+    paddingTop: $hasBanner ? '0px' : '16px',
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingBottom: 0,
+  },
+}));
 
-const NavInner = styled('div', { shouldForwardProp: (p) => p !== '$hasBanner' })<{ $hasBanner: boolean }>(
-  ({ theme, $hasBanner }) => ({
-    padding: $hasBanner ? '0px 40px' : '0px',
-    [theme.breakpoints.down('md')]: { padding: '0px 16px' },
-  }),
-);
+const NavInner = styled('div', { shouldForwardProp: (p) => p !== '$hasBanner' })<{ $hasBanner: boolean }>(({ theme, $hasBanner }) => ({
+  padding: $hasBanner ? '0px 40px' : '0px',
+  [theme.breakpoints.down('md')]: { padding: '0px 16px' },
+}));
 
 /**
  * Fixed top bar: optional announcement banner + the floating navbar.

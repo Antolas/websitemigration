@@ -18,8 +18,7 @@ export interface GalleryImage {
 }
 
 const GalleryStyled = styled('div')(({ theme }) => ({
-  background:
-    "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
+  background: "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
   padding: '40px',

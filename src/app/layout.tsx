@@ -8,8 +8,7 @@ import ThemeRegistry from '@/theme/ThemeRegistry';
 import '@/theme/fonts';
 
 const title = 'Platmosphere | A Mia-Platform Invitation';
-const description =
-  'Platmosphere is the in-person event for platform enthusiasts. Join us for chapter 2026 - Master the Vibe!';
+const description = 'Platmosphere is the in-person event for platform enthusiasts. Join us for chapter 2026 - Master the Vibe!';
 const ogImage = { url: `${SITE_URL}/assets/images/og-image.png`, width: 1200, height: 630 };
 
 export const metadata: Metadata = {

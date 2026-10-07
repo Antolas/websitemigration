@@ -14,7 +14,11 @@ export default function Analytics({ children }: { children: ReactNode }) {
   };
   return (
     <>
-      <Script src={`https://js.hs-analytics.net/analytics/1731319200000/${HUBSPOT_PORTAL_ID}.js`} strategy="afterInteractive" id="hs-analytics" />
+      <Script
+        src={`https://js.hs-analytics.net/analytics/1731319200000/${HUBSPOT_PORTAL_ID}.js`}
+        strategy="afterInteractive"
+        id="hs-analytics"
+      />
       <Script
         src="https://js.hubspot.com/web-interactives-embed.js"
         strategy="lazyOnload"
@@ -22,7 +26,14 @@ export default function Analytics({ children }: { children: ReactNode }) {
         id="hubspot-web-interactives-loader"
         {...hs}
       />
-      <Script src="https://js.hsadspixel.net/fb.js" strategy="lazyOnload" id={`hs-ads-pixel-${HUBSPOT_PORTAL_ID}`} data-ads-portal-id={HUBSPOT_PORTAL_ID} data-ads-env="prod" {...hs} />
+      <Script
+        src="https://js.hsadspixel.net/fb.js"
+        strategy="lazyOnload"
+        id={`hs-ads-pixel-${HUBSPOT_PORTAL_ID}`}
+        data-ads-portal-id={HUBSPOT_PORTAL_ID}
+        data-ads-env="prod"
+        {...hs}
+      />
       <Script
         src={`https://js.hs-banner.com/v2/${HUBSPOT_PORTAL_ID}/banner.js`}
         strategy="lazyOnload"

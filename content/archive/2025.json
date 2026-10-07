@@ -1,0 +1,303 @@
+{
+  "speakers": [
+    {
+      "firstName": "Lino",
+      "lastName": "Telera",
+      "role": "Cloud Architect",
+      "company": "Tinexta Infocert",
+      "photo": "/media/0a3453b4-d2d2-451a-8bcd-57f178993871.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/lino-telera-6973099/",
+      "biography": "Lino Telera is a Cloud Architect focused on Infrastructure Automation and DevOps strategies at InfoCert S.p.A. After earning the first VMware certification he joined VMware Users Group Italy in 2015, and he attended the first VMware {code} hackathon in 2016. Lino is a TechFieldDay delegate and he likes to spend his spare time authoring his blog https://blog.linoproject.net, running the Italian podcast “ThePipelineGuys” and teaching code to kids with CoderDojo initiatives. Recently he started teaching at the Università Cattolica del S. Cuore - CR.",
+      "talks": [
+        {
+          "name": "Platform Engineering: A 4-Year Journey Through Solutions, Evolution, and the AI Challenge Ahead",
+          "contentHubLink": "https://platmosphere.com/content-hub/platform-engineering-journey-ai"
+        }
+      ]
+    },
+    {
+      "firstName": "Diana",
+      "lastName": "Todea",
+      "role": "Senior Site Reliability Engineer",
+      "photo": "/media/d28bab06-6155-4e90-a4dc-2e7da1d3debc.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/diana-todea-b2a79968",
+      "biography": "Diana is a Senior Site Reliability Engineer specialized in Observability. She is passionate about serverless, SecOps and machine learning. She is an active contributor to the OpenTelemetry open source project and supports women in tech.",
+      "talks": [
+        {
+          "name": "From AI Agents to Llms as Judge: Reshaping Observability in the Era of GenerativeAI",
+          "contentHubLink": "https://platmosphere.com/content-hub/observability-generative-ai"
+        }
+      ]
+    },
+    {
+      "firstName": "Femi",
+      "lastName": "Ladega",
+      "role": "Group Chief Digital Officer",
+      "company": "Dedalus",
+      "photo": "/media/239a1a72-68e2-4e0d-bdce-63eca8cc6c55.webp",
+      "biography": "Femi Ladega is the Global Chief Digital Officer at Dedalus - a Global Health Software Company and one of the largest in the world. At Dedalus, Femi drives the organization’s digital transformation and innovation strategy, and execution across the globe.  Prior to Dedalus, Femi was DXC Technology’s Vice President, Fellow and Global Chief Technology Officer for Healthcare & Life Sciences. He was responsible for defining and driving the innovation strategy and growth for the company’s solutions and technology excellence and advocating that vision with customers.  Femi is a result-oriented and successful business & technology leader with over 30years experience gained through various multi-million dollar global consulting and business transformation engagements across many industries including Health Services, Telecommunications, Supply Chain, Government, Defense, Financial Services and Leisure Services; from the definition of business strategy and business enterprise models through business transformation to application and infrastructure transformation. He has proven track record working with governments at ministerial level, board-level executives and organization leaders to provide business vision and strategic direction across industry sectors. Femi is a regular speaker at major global industry conferences and holds a B.Sc in Computer Sciences & Statistics and MBA."
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Mugnai",
+      "role": "Legal Specialist – Data Protection, AI & Compliance",
+      "company": "Unicoop Firenze S.C.",
+      "photo": "/media/c6338716-ae13-43ac-8a38-c39b222fd202.webp",
+      "linkedinUrl": "http://www.linkedin.com/in/sara-mugnai-625344228",
+      "biography": "Sara works in the Legal and Privacy Office at Unicoop Firenze, where she focuses on data protection and compliance, contributing to the development of innovative strategies to address regulatory challenges in the context of digital transformation. She pays particular attention to issues related to artificial intelligence, data privacy, and technological innovation, ensuring the organization operates in full compliance with regulations and the rights of individuals. She works closely with IT and cybersecurity teams to integrate legal and technical solutions, promoting a dynamic and forward-looking approach to compliance.",
+      "talks": [
+        {
+          "name": "Data Catalog & AI in Unicoop Firenze (Retail)",
+          "contentHubLink": "https://platmosphere.com/content-hub/data-catalog-ai-retail"
+        }
+      ]
+    },
+    {
+      "firstName": "Aleix",
+      "lastName": " Morgadas",
+      "role": "CPO",
+      "company": "Teamperature",
+      "photo": "/media/a9b6046d-e3e4-4c1a-93e5-7dc736ba0ff2.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/aleixmorgadas/",
+      "websiteUrl": "https://sessionize.com/aleix-morgadas",
+      "biography": "Aleix Morgadas started his career as a programmer in startups and large consulting firms before moving into leadership positions. He currently works as CPO at Teamperature.",
+      "talks": [
+        {
+          "name": "Team Cognitive Load as Metric to Measure Platform Impact",
+          "contentHubLink": "https://platmosphere.com/content-hub/team-cognitive-load"
+        }
+      ]
+    },
+    {
+      "firstName": "Claudio",
+      "lastName": " Balbo",
+      "role": "Head of IT Architecture",
+      "company": "Intesa Sanpaolo",
+      "photo": "/media/1cb680e9-1c76-4e3a-ab3a-d66ad0d6d621.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/claudio-balbo-789250/?originalSubdomain=it",
+      "biography": "Claudio is an ICT leader who worked 23 years as technology consultant in the financial service industry at Accenture and, since 5 years, leads the “IT Architecture” at Intesa Sanpaolo. During his experiences he acquired a large experience in driving strategic IT transformation initiatives",
+      "talks": [
+        {
+          "name": "GT Gen-AI: How To Adopt Generative AI Technologies in the IT Unit of a Large International Bank",
+          "contentHubLink": "https://platmosphere.com/content-hub/Generative-AI-bank"
+        }
+      ]
+    },
+    {
+      "firstName": "Susanna",
+      "lastName": " Pavanelli",
+      "role": "IT Business Partner",
+      "company": "GVM Care & Research",
+      "photo": "/media/8317a23a-0a3a-48bb-8dcf-81ed811f91b9.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/susanna-pavanelli-45804185/",
+      "biography": "Susanna Pavanelli serves as an IT Business Partner at GVM Care & Research, where she coordinates various innovation and digital transformation projects across the group's facilities.  She holds a Bachelor's degree in Biomedical Engineering from the Polytechnic University of Turin and a Master's degree in Data Management for Clinical Trials from the University of Turin.  With over ten years of experience in the healthcare sector, she has held roles in IT project and operations management in private hospitals, as well as in strategic consulting and IT within public institutions.  Her main challenge lies in supporting healthcare professionals, patients, and citizens in the design, adoption, and integration of digital solutions that can create added value—both in terms of clinical and organizational quality, and in enhancing the overall patient experience.",
+      "talks": [
+        {
+          "name": "Building a Modern and Modular Healthcare Platform: Enhancing Efficiency and Patient Experience (GVM)",
+          "contentHubLink": "https://platmosphere.com/content-hub/healthcare-platform"
+        }
+      ]
+    },
+    {
+      "firstName": "Bryan",
+      "lastName": "Oliver",
+      "role": "Global Speaker, Co-Author of Effective Platform Engineering and Principal Architect",
+      "company": "Thoughtworks",
+      "photo": "/media/d78ed731-8178-4414-bdce-cb1968e5a10d.webp",
+      "websiteUrl": "olivercodes.com/talks",
+      "biography": "Bryan is an experienced engineer and leader who designs and builds complex distributed systems. He has spent his career developing on mobile and back-end whilst building autonomous teams. He has been focused on Platform Engineering and Cloud Native at Thoughtworks. He's the author of 2 books: Effective Platform Engineering with Manning Publications. And the upcoming book: Designing Cloud Native Delivery Systems, with O'Reilly. He also enjoys speaking at conferences around the world, and contributing to open source projects. In his free time he plays ice hockey and goes trail running, and tries to break into the champion rank in rocket league.  At Thoughtworks, Bryan has been developing and innovating heavily in the Platform Engineering space. Working with major clients like Ritchie Bros and other top companies, he's designed complex global multi-cloud engineering platforms. Some of these designs he has presented at well-known conferences like Kubecon, keynotes at CDCon, Codecamp, and more. He and 3 other Thoughtworkers banded together to write the recently released book Effective Platform Engineering. This book is the culmination of all of our expertise and practices amongst our clients.",
+      "talks": [
+        {
+          "name": "Hubris",
+          "contentHubLink": "https://platmosphere.com/content-hub/hubris"
+        }
+      ]
+    },
+    {
+      "firstName": "Esko",
+      "lastName": "Vähämäki",
+      "role": "Chief Architect & Co-Founder",
+      "company": "ConfidentialMind",
+      "photo": "/media/76e2e6a1-0340-470a-bf4a-55014c119951.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/eskovahamaki/",
+      "biography": "I’m a seasoned technology entrepreneur and software architect. Over the past six years, I’ve helped launch and grow venture-funded startups—including Surrogate.tv and ConfidentialMind—to transform ambitious ideas into successful products. At ConfidentialMind, I lead the development of a Kubernetes-based platform built to accelerate and secure the entire lifecycle of LLM inference and AI system development, from rapid prototyping to production deployment.",
+      "talks": [
+        {
+          "name": "How Platform Engineering Streamlines the End-To-End Delivery of a Self-Hosted Agentic Architecture",
+          "contentHubLink": "https://platmosphere.com/content-hub/platform-engineering-self-hosted-agentic-architecture"
+        }
+      ]
+    },
+    {
+      "firstName": "Ajay",
+      "lastName": "Chankramath",
+      "role": "Chief Technology Officer",
+      "company": "Brillio Technologies",
+      "photo": "/media/65103f8e-b3fc-411b-9679-dff3d0d253a5.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/chankramath/",
+      "biography": "MD & CTO of Industry Solutions, Platform and Product Engineering for Brillio. A platform engineering evangelist, author and speaker. Ajay has 3+ decades of technology leadership experience and most recently as the CTO & MD at Brillio. He is the co-author of Effective Platform Engineering, a unique platform Engineering practioner's book from Manning Publications. A regular speaker and panelist, as well as a prolific writer of blogs and other relevant publications, his current interests are around improving developer productivity using domain-driven platform engineering. Ajay is a trained computer scientist with significant technology leadership experience and advanced degrees in business and technology management.",
+      "talks": [
+        {
+          "name": "Platform Engineering Empowered: Harnessing Human-Centric AI Agents",
+          "contentHubLink": "https://platmosphere.com/content-hub/platform-engineering-ai-agents"
+        }
+      ]
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Hsu",
+      "role": "Co-Author of \"Building Green Software\", Green Software Principles Project Lead @Green Software Foundation, UK TechWomen100 Winner LinkedIn",
+      "photo": "/media/3f2e08f5-7335-4b17-93e8-326dccd67598.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/greenhsu123/",
+      "biography": "Sarah (Chun-Wei) Hsu is a recent TechWomen100 winner and a strong advocate for green, sustainable software. She frequently speaks, writes, and collaborates on projects related to this topic. Her contributions include co-authoring the O'Reilly book Building Green Software, leading the Green Software Foundation's Green Software Course, and launching the free online course Green Software for Practitioners with the Linux Foundation. Currently, Sarah is a Site Reliability Engineer working on a distributed platform on Google Cloud at a financial services firm.",
+      "talks": [
+        {
+          "name": "Green Software: From Tree Hugger to Tech Trendsetter",
+          "contentHubLink": "https://platmosphere.com/content-hub/green-software"
+        }
+      ]
+    },
+    {
+      "firstName": "William",
+      "lastName": "Rizzo",
+      "role": "Consulting Architect",
+      "company": "Mirantis",
+      "photo": "/media/d3d709fc-a816-47c4-9e3b-fcaf168aae21.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/william-rizzo/",
+      "biography": "William is a CNCF Ambassador and currently working at Mirantis as a Consulting Architect. He’s focused in helping customers designing, building, and running their Kubernetes, and Internal Developer Platforms. He wore many hats in the IT world, Engineering, Pre-Post sales, Product Owner and Consulting, from HPC Storage to Distributed Systems. William enjoys volunteering at the Dutch Cloud Native/Kubernetes Meetup and Organizing the KCD Netherlands events. Has lived in many European countries and now Netherlands is the place he calls home.",
+      "talks": [
+        {
+          "name": "Opening Keynote: Welcome to Platmosphere 2025!",
+          "contentHubLink": "https://platmosphere.com/content-hub/welcome-2025"
+        },
+        {
+          "name": "Closing Keynote: Key Takeaways & Insights Wrapping Up Platmosphere 2025",
+          "contentHubLink": "https://platmosphere.com/content-hub/key-takeaways"
+        }
+      ]
+    },
+    {
+      "firstName": "Neel",
+      "lastName": "Bhatt",
+      "role": "Chapter Lead & Solutions Architect",
+      "company": "RTL",
+      "photo": "/media/54933b19-b523-4847-8f68-490a79402eb6.webp",
+      "biography": "Neel is a tech enthusiast, blogger, writer, speaker, and solutions architect. He has 10 years of professional experience. Apart from being a developer, he is an award-winning tech blogger. He likes to stay up-to-date with the latest technology stack, and he likes to share his knowledge with the community. He often arranges RTL meetups to share knowledge. He is a DZone MVB and Top 4% overall on the StackOverflow site.",
+      "talks": [
+        {
+          "name": "The Tech Behind Weather Forecasting: How Technology Keeps You Ahead of the Weather",
+          "contentHubLink": "https://platmosphere.com/content-hub/tech-weather-platform"
+        }
+      ]
+    },
+    {
+      "firstName": "Monica",
+      "lastName": "Quintavilla",
+      "role": "Managing Director Cloud Advisory",
+      "company": "Accenture",
+      "photo": "/media/78ca4963-bc18-42bf-a59c-4b92f76488d8.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/monica-quintavilla-575986231/",
+      "biography": "Experienced Executive in Cloud Transformations, Evolution of IT Infrastructure through Platform-based Models and Head of Cloud Adivisory – Vision & Value practice within Accenture Technology",
+      "talks": [
+        {
+          "name": "Unleashing AI’s Full Potential with Composable Platforms: The Future of Scalable Innovation",
+          "contentHubLink": "https://platmosphere.com/content-hub/ai-composable-platform"
+        }
+      ]
+    },
+    {
+      "firstName": "Camilla",
+      "lastName": "Cionini Visani",
+      "role": "General Director",
+      "company": "ItaliaFintech",
+      "photo": "/media/f8b8e0c4-ecdb-4aab-8bf6-56e083c1593e.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/camilla-cionini-visani-581aa03/",
+      "biography": "Camilla Cionini Visani holds a degree in Economics of Financial Intermediaries from Luigi Bocconi University in Milan.  She gained extensive experience in the financial sector in London, at Schroders and then Deutsche Bank. Her professional experience then continued at SACE where she took on several leading roles. Since 2016 Director of International Affairs in Confindustria and since 2020 General Director of ItaliaFintech, the association of fintech companies in Italy.  Independent director in leading listed and unlisted companies active in the financial and technology sectors such as: Moltiply, doValue, AlbaLeasing and also Chairman of Banco BBPM Invest SGR. Member of the Steering Committee of ITB-Value D and Vice President of the Bassiri Foundation.",
+      "talks": [
+        {
+          "name": "The Future of Banking: How Digital Innovation is Reshaping Financial Services",
+          "contentHubLink": "https://platmosphere.com/content-hub/future-of-banking-roundtable"
+        }
+      ]
+    },
+    {
+      "firstName": "Maurice",
+      "lastName": "Lisi",
+      "role": "Head of Digital Business",
+      "company": "BPER Banca",
+      "photo": "/media/d5eaac34-014e-4f18-85eb-9cd3c7e0f345.webp",
+      "linkedinUrl": "https://www.linkedin.com/in/mauricelisi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "biography": "Maurice Lisi is a global leader in digital banking transformation, with over 20 years of experience driving large-scale initiatives across mature and emerging markets. His expertise spans Retail, SMEs, Corporate, and Private Banking, enabling him to design holistic, customer-centric models that redefine the way banks engage with clients. He has led complex transformation programs at leading financial institutions, first within Intesa Sanpaolo’s international ecosystem and now at BPER Banca, where he is shaping the bank’s future distribution model by integrating digital innovation with human expertise. His vision is clear: technology should empower human relationships, not replace them. Beyond Europe, he has worked extensively in high-growth markets, including the Middle East and Africa, leading initiatives in Financial Inclusion, Mobile Wallets, and Digital Payments. He also has deep expertise in the Card Business &amp; Payments industry. His work is not just about digital transformation: he is redefining the future of banking distribution, creating a model where technology and human interaction seamlessly integrate to build trust, engagement and long-term relationships. A firm believer in service design and customer experience, he actively contributes to global industry conferences, sharing insights on banking transformation, financial inclusion, and payments innovation.",
+      "talks": [
+        {
+          "name": "The Future of Banking: How Digital Innovation is Reshaping Financial Services",
+          "contentHubLink": "https://platmosphere.com/content-hub/future-of-banking-roundtable"
+        }
+      ]
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "ATS",
+      "url": "https://www.atscom.it/",
+      "logo": "/media/1978c44e-2cbf-421b-a143-baa5b43f98ae.svg"
+    },
+    {
+      "name": "Bowman",
+      "url": "https://www.bowmanmilano.com/",
+      "logo": "/media/2a71e2de-8f4e-4533-b433-fef0fce8eb9d.svg"
+    },
+    {
+      "name": "Evoila",
+      "url": "https://evoila.com/",
+      "logo": "/media/f6265f57-44be-4b5d-a291-20539683cd53.svg"
+    },
+    {
+      "name": "EY",
+      "url": "https://www.ey.com/it_it",
+      "logo": "/media/a9cf0a81-4cc5-4f5d-9ea8-2d40e41a4ee3.svg"
+    }
+  ],
+  "mediaPartners": [
+    {
+      "name": "CloudConf",
+      "url": "https://2026.cloudconf.it/",
+      "logo": "/media/de65e88e-1f10-40c0-ab99-c2dda7e2d9f6.svg"
+    },
+    {
+      "name": "Codemotion",
+      "url": "https://www.codemotion.com/",
+      "logo": "/media/f9840a4f-e345-41a1-8e47-f47e01c0cc98.svg"
+    },
+    {
+      "name": "Grusp",
+      "url": "https://www.grusp.org/",
+      "logo": "/media/916a5f7e-48f5-4f38-be32-14be6a98c832.svg"
+    },
+    {
+      "name": "Hackmamba",
+      "url": "https://hackmamba.io/",
+      "logo": "/media/ecf729ad-637a-4dd5-bd84-0d40d600eaf1.svg"
+    },
+    {
+      "name": "KubeCareers",
+      "url": "https://kube.careers/",
+      "logo": "/media/afc45ac1-6e3b-4299-aab2-ef72c3774f94.svg"
+    },
+    {
+      "name": "KubeEvents",
+      "url": "https://kube.events/",
+      "logo": "/media/d9cc63e6-8f1b-43c7-b382-b0ffbb037d4e.svg"
+    },
+    {
+      "name": "Platform Thinking Ecosystem",
+      "url": "https://platformthinking.eu/",
+      "logo": "/media/2118d9cc-eaa1-4c97-8343-6d0b5011cbee.svg"
+    },
+    {
+      "name": "SheTech",
+      "url": "https://shetechitaly.org/",
+      "logo": "/media/91c2be3a-41cc-4a79-893e-d7aabb23c536.svg"
+    }
+  ]
+}

@@ -33,7 +33,14 @@ export default function SpeakersPage() {
         <div className="speakers-grid-container">
           <div className="speakers-grid">
             {list.map((s) => (
-              <SpeakerCard key={s.id} speaker={s} layout="horizontal" darkMode={false} nameVariant="bodyLSemibold" talkLinks={getSpeakerTalkLinks(s.id)} />
+              <SpeakerCard
+                key={s.id}
+                speaker={s}
+                layout="horizontal"
+                darkMode={false}
+                nameVariant="bodyLSemibold"
+                talkLinks={getSpeakerTalkLinks(s.id)}
+              />
             ))}
           </div>
         </div>

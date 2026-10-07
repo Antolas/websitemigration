@@ -1,5 +1,5 @@
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import HubSpotForm from '@/components/common/HubSpotForm';
 import TextHighlighted from '@/components/common/TextHighlighted';
 import Footer from '@/components/layout/Footer';

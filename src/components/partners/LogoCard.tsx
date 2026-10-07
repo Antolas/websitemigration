@@ -1,7 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 
 export const LogoCardStyled = styled('div')(({ theme }) => ({
   background: '#FFFFFF',

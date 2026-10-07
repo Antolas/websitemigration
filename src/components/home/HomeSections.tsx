@@ -1,14 +1,8 @@
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import { Fragment } from 'react';
 import Marquee from '@/components/common/Marquee';
-import {
-  ExternalTextLink,
-  SecondaryNavButton,
-  WatchRecapLink,
-  WhiteLinkButton,
-  WhiteNavButton,
-} from '@/components/buttons/ActionButtons';
+import { ExternalTextLink, SecondaryNavButton, WatchRecapLink, WhiteLinkButton, WhiteNavButton } from '@/components/buttons/ActionButtons';
 import Icon from '@/components/common/Icon';
 import LayeredBackground from '@/components/common/LayeredBackground';
 import NumberReport, { type NumberItem } from '@/components/common/NumberReport';
@@ -54,7 +48,14 @@ interface HeroProps {
 export function HomeHero({ eyebrow, date, location, tagline, cta, numbersTitle, numbers, keywords, keywordsRepeat }: HeroProps) {
   const marqueeItems = Array.from({ length: keywordsRepeat }, () => keywords).flat();
   return (
-    <LayeredBackground background="linear-gradient(90deg, #A0FFA7 -7.63%, #20A393 29.18%, #002F5A 93.49%)" backgroundContent={<HeroAnimation />}>
+    <LayeredBackground
+      containerStyle={{
+        width: '100%',
+        height: '100%',
+        background: 'linear-gradient(90deg, #A0FFA7 -7.63%, #20A393 29.18%, #002F5A 93.49%)',
+      }}
+      backgroundContent={<HeroAnimation />}
+    >
       <div style={{ width: '100%' }}>
         <div style={{ paddingTop: 'var(--navbar-height, 0px)' }}>
           <HomeHeroStyled>
@@ -101,10 +102,7 @@ export function HomeHero({ eyebrow, date, location, tagline, cta, numbersTitle, 
             <Marquee>
               {marqueeItems.map((keyword, i) => (
                 <KeywordStyled key={i}>
-                  <Typography variant="h5">
-                    {' '}
-                    {keyword}
-                  </Typography>
+                  <Typography variant="h5"> {keyword}</Typography>
                   <Icon name="grey-circle.svg" />
                 </KeywordStyled>
               ))}
@@ -116,7 +114,17 @@ export function HomeHero({ eyebrow, date, location, tagline, cta, numbersTitle, 
   );
 }
 
-export function HomeEmotionalVideo({ title, embedUrl, recapLabel, recapUrl }: { title: string; embedUrl: string; recapLabel: string; recapUrl: string }) {
+export function HomeEmotionalVideo({
+  title,
+  embedUrl,
+  recapLabel,
+  recapUrl,
+}: {
+  title: string;
+  embedUrl: string;
+  recapLabel: string;
+  recapUrl: string;
+}) {
   return (
     <HomeEmotionalVideoStyled>
       <div className="title-emotional-video">
@@ -249,7 +257,14 @@ export function DarkBanner({ eyebrow, title, subtitle, cta }: DarkBannerProps) {
           <LayeredBackground
             backgroundContent={
               <div style={{ display: 'flex', justifyContent: 'center', margin: '-15%' }}>
-                <Image src="/assets/images/hexagons-white-min.png" alt="hexagon" sizes="100vw" height={0} width={0} style={{ width: '70%', height: '100%' }} />
+                <Image
+                  src="/assets/images/hexagons-white-min.png"
+                  alt="hexagon"
+                  sizes="100vw"
+                  height={0}
+                  width={0}
+                  style={{ width: '70%', height: '100%' }}
+                />
               </div>
             }
           >

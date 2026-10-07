@@ -30,11 +30,7 @@ export default function AnnouncementBanner({ onClose }: { onClose: () => void })
         ? `${theme.palette.primary[500]}CC`
         : theme.palette.primary[500]
     : theme.palette.primary[500];
-  const closeColor = closePressed
-    ? theme.palette.primary[700]
-    : closeHovered
-      ? theme.palette.primary[900]
-      : theme.palette.primary[700];
+  const closeColor = closePressed ? theme.palette.primary[700] : closeHovered ? theme.palette.primary[900] : theme.palette.primary[700];
 
   const content = (
     <>

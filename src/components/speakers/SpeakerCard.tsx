@@ -1,6 +1,7 @@
 import Typography, { type TypographyProps } from '@mui/material/Typography';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import type { Speaker, TalkLink } from '@/lib/content';
+import type { Edition } from '@/theme/palettes';
 import SpeakerCardWrapper from './SpeakerCardWrapper';
 import { SpeakerCardStyled, type SpeakerCardStyledProps } from './SpeakerCardStyled';
 
@@ -11,10 +12,19 @@ interface SpeakerCardProps extends SpeakerCardStyledProps {
   nameVariant?: TypographyProps['variant'];
   /** Render the static card only (no click-to-open drawer). */
   disableDrawer?: boolean;
+  edition?: Edition;
 }
 
 /** Speaker portrait + name/role/company. Clicking opens the speaker drawer. */
-export default function SpeakerCard({ speaker, talkLinks = [], layout, darkMode, nameVariant = 'bodyXSSemibold', disableDrawer }: SpeakerCardProps) {
+export default function SpeakerCard({
+  speaker,
+  talkLinks = [],
+  layout,
+  darkMode,
+  nameVariant = 'bodyXSSemibold',
+  disableDrawer,
+  edition,
+}: SpeakerCardProps) {
   const card = (
     <SpeakerCardStyled layout={layout} darkMode={darkMode}>
       <div className="speaker-image">
@@ -43,7 +53,7 @@ export default function SpeakerCard({ speaker, talkLinks = [], layout, darkMode,
   );
   if (disableDrawer) return card;
   return (
-    <SpeakerCardWrapper speaker={speaker} coverPhoto={speaker.photo || ''} talkLinks={talkLinks}>
+    <SpeakerCardWrapper speaker={speaker} coverPhoto={speaker.photo || ''} talkLinks={talkLinks} edition={edition}>
       {card}
     </SpeakerCardWrapper>
   );

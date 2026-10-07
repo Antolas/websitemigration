@@ -2,7 +2,7 @@
 
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import { WhiteLinkButton } from '@/components/buttons/ActionButtons';
 import LayeredBackground from '@/components/common/LayeredBackground';
 
@@ -31,7 +31,14 @@ export default function SponsorshipGradientBanner() {
           <LayeredBackground
             backgroundContent={
               <div style={{ display: 'flex', justifyContent: 'center', margin: '-15%' }}>
-                <Image src="/assets/images/hexagons-white-min.png" alt="hexagon" sizes="100vw" height={0} width={0} style={{ width: '70%', height: '100%' }} />
+                <Image
+                  src="/assets/images/hexagons-white-min.png"
+                  alt="hexagon"
+                  sizes="100vw"
+                  height={0}
+                  width={0}
+                  style={{ width: '70%', height: '100%' }}
+                />
               </div>
             }
           >

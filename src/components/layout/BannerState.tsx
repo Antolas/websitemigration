@@ -40,9 +40,7 @@ export function BannerStateProvider({ children }: { children: ReactNode }) {
     if (!noBanner) setCookie('bannerClosed', 'true', 1);
   };
 
-  return (
-    <BannerStateContext.Provider value={{ isBannerClosed, closeBanner, isHydrated }}>{children}</BannerStateContext.Provider>
-  );
+  return <BannerStateContext.Provider value={{ isBannerClosed, closeBanner, isHydrated }}>{children}</BannerStateContext.Provider>;
 }
 
 export function useBannerState() {

@@ -31,7 +31,12 @@ export function SecondaryNavButton({ href, children, iconSize = 20 }: { href: st
 export function PrimaryNavButton({ href, children }: { href: string; children: ReactNode }) {
   const router = useRouter();
   return (
-    <Button onClick={() => router.push(href)} endIcon={<Icon name="arrow-right.svg" height={16} width={17} />} variant="contained" color="primary">
+    <Button
+      onClick={() => router.push(href)}
+      endIcon={<Icon name="arrow-right.svg" height={16} width={17} />}
+      variant="contained"
+      color="primary"
+    >
       {children}
     </Button>
   );
@@ -69,7 +74,17 @@ export function WhiteLinkButton({
 }
 
 /** Underlined text link opening a URL in a new tab. e.g. "Become a 2027 Sponsor ↗". */
-export function ExternalTextLink({ href, children, darkMode = false, icon = 'arrow-up-right.svg' }: { href: string; children: ReactNode; darkMode?: boolean; icon?: string }) {
+export function ExternalTextLink({
+  href,
+  children,
+  darkMode = false,
+  icon = 'arrow-up-right.svg',
+}: {
+  href: string;
+  children: ReactNode;
+  darkMode?: boolean;
+  icon?: string;
+}) {
   return (
     <LinkButton darkMode={darkMode} onClick={() => window.open(href, '_blank')} icon={icon}>
       {children}
@@ -78,7 +93,17 @@ export function ExternalTextLink({ href, children, darkMode = false, icon = 'arr
 }
 
 /** Underlined text link navigating inside the site. e.g. "Read more →". */
-export function InternalTextLink({ href, children, darkMode = false, icon = 'arrow-right.svg' }: { href: string; children: ReactNode; darkMode?: boolean; icon?: string }) {
+export function InternalTextLink({
+  href,
+  children,
+  darkMode = false,
+  icon = 'arrow-right.svg',
+}: {
+  href: string;
+  children: ReactNode;
+  darkMode?: boolean;
+  icon?: string;
+}) {
   const router = useRouter();
   return (
     <LinkButton darkMode={darkMode} onClick={() => router.push(href)} icon={icon}>

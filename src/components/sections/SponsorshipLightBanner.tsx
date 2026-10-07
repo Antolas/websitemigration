@@ -3,7 +3,7 @@
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import Icon from '@/components/common/Icon';
 import LayeredBackground from '@/components/common/LayeredBackground';
 
@@ -38,7 +38,14 @@ export default function SponsorshipLightBanner() {
           <LayeredBackground
             backgroundContent={
               <div style={{ display: 'flex', justifyContent: 'center', margin: '-15%' }}>
-                <Image alt="hexagons" src="/assets/images/hexagons.png" sizes="100vw" height={0} width={0} style={{ width: '70%', height: '100%' }} />
+                <Image
+                  alt="hexagons"
+                  src="/assets/images/hexagons.png"
+                  sizes="100vw"
+                  height={0}
+                  width={0}
+                  style={{ width: '70%', height: '100%' }}
+                />
               </div>
             }
           >

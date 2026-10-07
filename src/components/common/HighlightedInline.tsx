@@ -17,7 +17,7 @@ export default function HighlightedInline({
     <TextHighlightedStyled
       variant={variant}
       highlightColor={highlightColor}
-      containerStyle={{ '& .MuiTypography-root': { fontWeight: 'bold' } } as never}
+      containerStyle={{ '& .MuiTypography-root': { fontWeight: 'bold' } }}
     >
       <div className="text-highlighted-text">
         <Typography variant={variant}>{children}</Typography>

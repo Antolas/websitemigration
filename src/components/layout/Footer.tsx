@@ -2,7 +2,7 @@
 
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import SocialButton from '@/components/buttons/SocialButton';

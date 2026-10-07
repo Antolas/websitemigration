@@ -1,5 +1,5 @@
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 
 export interface LogoTile {
   name: string;

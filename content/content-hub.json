@@ -606,12 +606,7 @@
     "photo": "/media/6befd6f7-93a2-46ee-8114-ed7b5a5e1409.png",
     "videoURL": "fngmJReTeaE",
     "slideURL": "https://eu1.hubs.ly/H0wqH_h0",
-    "speakers": [
-      {
-        "speakerId": "6735e401ba43c4fec5bdbfa7",
-        "position": 1
-      }
-    ],
+    "speakers": [],
     "description": "Aindo is leading a shift in digital health by unlocking the 95% of biomedical data currently siloed behind privacy barriers. To truly Master The Vibe of modern healthcare, Aindo utilizes generative AI to create synthetic data that perfectly replicates complex clinical patterns while remaining entirely anonymous. This innovation accelerates research timelines—transforming 9-month data access hurdles into instant availability for high-impact use cases like rare tumor modeling.  The key to Aindo’s success lies in its \"\"clinical-grade\"\" commitment. By leveraging the P4SaMD framework to develop its solutions, Aindo ensures its technology is not just mathematically accurate but also meets the rigorous regulatory standards required for medical device software. This session highlights how Aindo empowers researchers to scale Real-World Evidence securely, demonstrating that the future of medicine is built on data that is both high-fidelity and fully compliant."
   },
   {
@@ -928,10 +923,6 @@
     "videoURL": "t9QB3WDd88g",
     "slideURL": "https://eu1.hubs.ly/H0wqGc40",
     "speakers": [
-      {
-        "speakerId": "6735e6c3ba43c4fec5bdbfc1",
-        "position": 3
-      },
       {
         "speakerId": "6a3939a067e52b83f218def4",
         "position": 1

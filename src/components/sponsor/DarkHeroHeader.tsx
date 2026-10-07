@@ -1,5 +1,5 @@
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
+import Image from '@/components/common/Image';
 import type { ReactNode } from 'react';
 import LayeredBackground from '@/components/common/LayeredBackground';
 import { DarkHeroHeaderStyled } from './SponsorStyled';

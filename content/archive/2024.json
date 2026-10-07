@@ -1,0 +1,146 @@
+{
+  "speakers": [
+    {
+      "firstName": "Roberth",
+      "lastName": "Strand",
+      "role": "co-chair at CNCF Platforms Working Group Chapter and Principal Cloud Native Architect",
+      "company": "Sopra Steria",
+      "photo": "/media/cd62385d-2455-43f7-9123-a3a7603287a1.png",
+      "linkedinUrl": "https://linkedin.com/in/roberthstrand",
+      "biography": "Roberth is a self-proclaimed “cloud automator”, and works primarily with Microsoft Azure infrastructure, Platform Engineering, DevOps and Cloud Native technology.  He has been awarded the title Microsoft Azure MVP (2021, 2022, 2023), CNCF Ambassador (2023), as well as HashiCorp Ambassador (2021, 2022, 2023). He has been an active speaker for several years, talking at everything from small local meetups to KubeCon."
+    },
+    {
+      "firstName": "Sean",
+      "lastName": "Alvarez",
+      "role": "Head of Business Platforms NA",
+      "company": "Thoughtworks",
+      "photo": "/media/bb240dc1-904d-4bc2-b119-5ae1828cdb57.png",
+      "linkedinUrl": "https://www.linkedin.com/in/seanpalvarez/",
+      "biography": "Sean has worked across multiple industries for over 15 years in the public and private sectors, orchestrating transformations with companies of all sizes. He has led teams in modernizing software delivery and operation and championed efforts across all phases of the software lifecycle including software architecture, continuous delivery, runtime governance, and observability.  Currently, as Head of Business Platforms in North America for Thoughtworks Sean leads a team of experienced engineers building composable, extensible and secure software engineering platforms to unlock business capabilities at scale."
+    },
+    {
+      "firstName": "Valentina",
+      "lastName": "Bazzarin",
+      "role": "Data Ethics Expert, Co-Founder and Research Coordinator",
+      "company": "Period Think Tank",
+      "photo": "/media/ddc4a6a3-8b2c-48a3-a5f6-7101044741bd.png",
+      "linkedinUrl": "https://www.linkedin.com/in/valentina-bazzarin-aa6b859/",
+      "biography": "Valentina Bazzarin, co-founder of Period Think Tank, is adjunct professor of Cognitive Psychology at USAC, educator, trainer, and ethical consultant for various institutions, European agencies, enterprises, foundations, NGOs, associations, and public administrations. With an international academic and professional background, she holds a Ph.D. in General and Clinical Psychology, specializing in cognitive processes and ecological systems.  Her expertise encompasses data ethics, gender data, and the role of cognitive processes in defining public ethics and the right to the city. As a consultant, she focuses on designing effective and inclusive processes for reducing inequalities and enhancing public and social communication."
+    },
+    {
+      "firstName": "Eric D.",
+      "lastName": "Schabell",
+      "role": "Director Evangelism",
+      "company": "Chronosphere",
+      "photo": "/media/96489863-cc51-40b6-82f8-6cfcb0ba26f7.png",
+      "linkedinUrl": "https://www.linkedin.com/in/ericschabell/",
+      "biography": "Eric is Chronosphere’s Director Evangelism. He’s renowned in the development community as a speaker, lecturer, author and baseball expert. His current role allows him to help the world understand the challenges they are facing with cloud native observability.  He brings a unique perspective to the stage with a professional life dedicated to sharing his deep expertise of open source technologies, organizations, and is a CNCF Ambassador."
+    },
+    {
+      "firstName": "Dominic ",
+      "lastName": "Lüchinger",
+      "role": "Senior Platform Engineer",
+      "company": "SIX Group",
+      "photo": "/media/7dc4eaa4-6990-46a0-9d09-35c04fcea00e.png",
+      "linkedinUrl": "https://www.linkedin.com/in/dominicluechinger/",
+      "biography": "Dominic is a Senior Platform Engineer at SIX Group, where he specializes in API connectivity. His expertise lies in developing self-service platforms to enhance product team efficiency, reduce cognitive load, and expedite time to market by abstracting complex infrastructure and compliance processes.  Passionate about integrating cloud-native technologies with a focus on security and compliance, Dominic brings over two decades of experience in constructing customer-centric infrastructure and automation platforms."
+    },
+    {
+      "firstName": "Matteo ",
+      "lastName": "Barion",
+      "role": "Director of Enterprise Architecture",
+      "company": "CNH Industrial",
+      "photo": "/media/9b896a30-a426-4400-b43b-a523e5065452.png",
+      "linkedinUrl": "https://www.linkedin.com/in/matteo-barion-168b8311/",
+      "biography": "Passionate Director of Enterprise Architecture at CNH Industrial, leading hands-on IT Enterprise Architecture team.  Driving innovation and efficiency in tech solutions."
+    },
+    {
+      "firstName": "Elena",
+      "lastName": "Sini",
+      "role": "Chief Information Officer",
+      "company": "GVM",
+      "photo": "/media/74dd4dcc-ba89-4c28-9fef-58da8de5d601.png",
+      "linkedinUrl": "https://www.linkedin.com/in/elenasini/",
+      "biography": "Elena Sini is a CIO with 20 years of experience acquired among Italian top-tier public and private healthcare providers — such as the IRCCS Istituto Nazionale Tumori and Humanitas.  Since 2019, she has served as Group CIO at GVM Care and Research —one of the Italian private leading healthcare groups running healthcare facilities throughout Italy and other European countries. Sini is chair of the HIMSS Europe Governing Council and is the founder of the HIMSS Italian Community."
+    },
+    {
+      "firstName": "William Aass ",
+      "lastName": "Dahlen",
+      "role": "Platform Engineer",
+      "company": "Telenor Norway",
+      "photo": "/media/2c1621fb-f8d3-4277-9ca2-ed9c576e8223.png",
+      "linkedinUrl": "https://www.linkedin.com/in/williamdahlen/",
+      "biography": "William Aass Dahlen is an experienced platform engineer working for Telenor Norway where he is specialized on self-service, automation, and cloud platforms.  He started his career as a systems administrator more than 10 years ago and has been working primarily with Public Cloud, Kubernetes, and Platform development."
+    },
+    {
+      "firstName": "Vaibhav ",
+      "lastName": "Bansal",
+      "role": "Lead Platform Engineer",
+      "company": "Telenor Norway",
+      "photo": "/media/8519ae65-aa87-4345-b823-25643b6a7cc7.png",
+      "linkedinUrl": "https://www.linkedin.com/in/vaibhav-bansal-9aab4b65/",
+      "biography": "Vaibhav Bansal is working as a Lead Platform Engineer in Telenor Norway where he is responsible for building and enabling Cloud platforms. He started his software building journey as a backend developer more than 15 years ago and has been working primarily with DevOps, cloud-native and public cloud (AWS, Azure) in the last decade.  He has a burning interest for cloud native architectures and is a very strong believer for Public Cloud first."
+    },
+    {
+      "firstName": "Daniele ",
+      "lastName": "Di Ianni",
+      "role": "Customer Innovation Manager",
+      "company": "Roche",
+      "photo": "/media/70b1c1ce-0738-486e-b5a8-2691a6844b79.png",
+      "linkedinUrl": "https://www.linkedin.com/in/danielediianni/",
+      "biography": "Customer Innovation Manager at Roche since 2019, with over 20 years of experience in innovation, digital, and people management and the mission to transform the healthcare industry by designing and delivering integrated solutions that maximize the value for customers and patients.  Expert in innovation management, digital transformation management, people and project management, marketing management. With an MBA from LUISS Business School and an executive education in leading digital transformation in healthcare from Harvard Medical School."
+    },
+    {
+      "firstName": "Adrian",
+      "lastName": "Gonzalez",
+      "role": "Sales Director",
+      "company": "OVHcloud",
+      "photo": "/media/fda26493-0336-4d20-803f-e3897c8f8d39.png",
+      "linkedinUrl": "https://www.linkedin.com/in/glezadrian/",
+      "biography": "Adrián González is currently Sales Director, Southern Europe at OVHcloud. Technology innovator with over a decade of experience driving business growth through cutting-edge solutions. With a strong track record leading cross-functional teams, Adrián is specializes in aligning technological innovation with strategic business objectives to deliver impactful, cost-effective results. Passionate about exploring emerging trends and creating long-term value, he collaborates closely with clients and partners across industries to turn complex challenges into opportunities for growth."
+    },
+    {
+      "firstName": "Monica ",
+      "lastName": "Quintavilla",
+      "role": "Managing Director Cloud Advisory",
+      "company": "Accenture",
+      "photo": "/media/7cd4020c-b65d-4e85-bae5-5d0fe3dac000.png",
+      "linkedinUrl": "https://www.linkedin.com/in/monica-quintavilla-575986231/",
+      "biography": "Experienced Executive in Cloud Transformations, Evolution of IT Infrastructure through Platform-based Models and Head of Cloud Adivisory – Vision & Value practice within Accenture Technology"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Okta",
+      "url": "https://www.okta.com/",
+      "logo": "/media/53bbf9b2-c8c7-4a40-bfd8-57400200df8e.png"
+    },
+    {
+      "name": "Nutanix",
+      "url": "https://www.nutanix.com/",
+      "logo": "/media/79b82c48-8c67-431d-8518-cc4feaba2b76.png"
+    }
+  ],
+  "mediaPartners": [
+    {
+      "name": "CloudConf",
+      "url": "https://2025.cloudconf.it/",
+      "logo": "/media/7425117c-1f60-4dbc-b936-d076b8935acf.svg"
+    },
+    {
+      "name": "Grusp",
+      "url": "https://www.grusp.org/",
+      "logo": "/media/70fb5110-9ef9-4ece-899d-ecf0ce76349b.svg"
+    },
+    {
+      "name": "Hackmamba",
+      "url": "https://hackmamba.io/",
+      "logo": "/media/a0137d26-4082-4025-9552-b1eb95e371cc.svg"
+    },
+    {
+      "name": "Improove",
+      "url": "https://www.improove.tech/",
+      "logo": "/media/156f3589-1731-468c-b724-b390bfd811f3.png"
+    }
+  ]
+}

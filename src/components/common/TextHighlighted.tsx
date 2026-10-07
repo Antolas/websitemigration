@@ -7,7 +7,8 @@ import type { CSSProperties, ReactNode } from 'react';
 interface StyledProps {
   variant?: TypographyProps['variant'];
   highlightColor?: string;
-  containerStyle?: CSSProperties;
+  /** Extra styles for the wrapper; nested selectors (e.g. '& .MuiTypography-root') are allowed. */
+  containerStyle?: CSSProperties | Record<string, unknown>;
 }
 
 export const TextHighlightedStyled = styled('div', {
