@@ -12,6 +12,7 @@ import LayeredBackground from '@/components/common/LayeredBackground';
 import SpeakerCard from '@/components/speakers/SpeakerCard';
 import type { Speaker } from '@/lib/content';
 import type { Edition } from '@/theme/palettes';
+import { withBase } from '@/lib/base-path';
 
 const TrackCardStyled = styled('div')(() => ({
   '.tracks-content': { display: 'flex', flexDirection: 'column', gap: '16px', color: '#FFFFFF', padding: '50px' },
@@ -38,7 +39,7 @@ export function TrackCard({ children, image, backgroundColor }: { children: Reac
 
 export function RecapLink({ recapVideoUrl = '', label }: { recapVideoUrl?: string; label: string }) {
   return (
-    <LinkButton onClick={() => window.open(recapVideoUrl, '_blank')} icon="arrow-up-right.svg" darkMode>
+    <LinkButton onClick={() => window.open(withBase(recapVideoUrl), '_blank')} icon="arrow-up-right.svg" darkMode>
       <Typography variant="bodySAlt">{label}</Typography>
     </LinkButton>
   );
@@ -46,7 +47,10 @@ export function RecapLink({ recapVideoUrl = '', label }: { recapVideoUrl?: strin
 
 export function ContactUsButton() {
   return (
-    <WhiteButton onClick={() => window.open('/join-us', '_blank')} endIcon={<Icon name="arrow-up-right.svg" height={20} width={20} />}>
+    <WhiteButton
+      onClick={() => window.open(withBase('/join-us'), '_blank')}
+      endIcon={<Icon name="arrow-up-right.svg" height={20} width={20} />}
+    >
       Contact us
     </WhiteButton>
   );
@@ -54,7 +58,7 @@ export function ContactUsButton() {
 
 export function AgendaPdfLink({ href }: { href: string }) {
   return (
-    <LinkButton onClick={() => window.open(href, '_blank')} icon="arrow-up-right.svg">
+    <LinkButton onClick={() => window.open(withBase(href), '_blank')} icon="arrow-up-right.svg">
       Explore the agenda
     </LinkButton>
   );
@@ -62,7 +66,7 @@ export function AgendaPdfLink({ href }: { href: string }) {
 
 export function BecomeSponsorLink() {
   return (
-    <LinkButton darkMode={false} onClick={() => window.open('/become-a-sponsor', '_blank')} icon="arrow-up-right.svg">
+    <LinkButton darkMode={false} onClick={() => window.open(withBase('/become-a-sponsor'), '_blank')} icon="arrow-up-right.svg">
       Become a 2027 Sponsor
     </LinkButton>
   );
@@ -70,7 +74,7 @@ export function BecomeSponsorLink() {
 
 export function BecomeMediaPartnerLink() {
   return (
-    <LinkButton darkMode={false} onClick={() => window.open('/become-a-sponsor', '_blank')} icon="arrow-up-right.svg">
+    <LinkButton darkMode={false} onClick={() => window.open(withBase('/become-a-sponsor'), '_blank')} icon="arrow-up-right.svg">
       Become a Media partner
     </LinkButton>
   );

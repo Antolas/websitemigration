@@ -1,6 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
+import { BASE_PATH } from '@/lib/base-path';
 
 export const RegisterStyled = styled('div')(({ theme }) => ({
   '.register-full-width-section': {
@@ -101,7 +102,7 @@ export const SecondaryDarkHeroStyled = styled('div')(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   gap: '24px',
-  backgroundImage: 'url("/Sphere2026.png"), linear-gradient(90deg, #002F5A -7.72%, #20A393 64.95%, #A0FFA7 106.55%)',
+  backgroundImage: `url("${BASE_PATH}/Sphere2026.png"), linear-gradient(90deg, #002F5A -7.72%, #20A393 64.95%, #A0FFA7 106.55%)`,
   backgroundPosition: 'bottom right, center',
   backgroundRepeat: 'no-repeat, no-repeat',
   backgroundSize: '560px auto, cover',
@@ -112,7 +113,7 @@ export const SecondaryDarkHeroStyled = styled('div')(({ theme }) => ({
     paddingRight: '0px',
     alignItems: 'center',
     textAlign: 'center',
-    backgroundImage: 'url("/Sphere2026-half.png"), linear-gradient(90deg, #002F5A -7.72%, #20A393 64.95%, #A0FFA7 106.55%)',
+    backgroundImage: `url("${BASE_PATH}/Sphere2026-half.png"), linear-gradient(90deg, #002F5A -7.72%, #20A393 64.95%, #A0FFA7 106.55%)`,
     backgroundSize: '50%, cover',
   },
   '.supertitle': { color: theme.palette.primary['100'], letterSpacing: '0.1em' },

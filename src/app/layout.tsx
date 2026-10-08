@@ -6,6 +6,7 @@ import MobileRegisterBar from '@/components/layout/MobileRegisterBar';
 import { SITE_URL } from '@/lib/site';
 import ThemeRegistry from '@/theme/ThemeRegistry';
 import '@/theme/fonts';
+import { BASE_PATH, withBase } from '@/lib/base-path';
 
 const title = 'Platmosphere | A Mia-Platform Invitation';
 const description = 'Platmosphere is the in-person event for platform enthusiasts. Join us for chapter 2026 - Master the Vibe!';
@@ -15,11 +16,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title,
   description,
-  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+  // Sub-path previews (GitHub Pages) are not indexed.
+  robots: BASE_PATH ? { index: false, follow: false } : { index: true, follow: true, googleBot: { index: true, follow: true } },
   other: { google: 'index,follow' },
   openGraph: { title, description, images: [ogImage] },
   twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
-  icons: { icon: '/favicon.ico', apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }] },
+  icons: { icon: withBase('/favicon.ico'), apple: [{ url: withBase('/apple-touch-icon.png'), sizes: '180x180' }] },
 };
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1 };

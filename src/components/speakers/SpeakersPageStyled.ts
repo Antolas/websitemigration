@@ -1,6 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
+import { BASE_PATH } from '@/lib/base-path';
 
 export const SpeakersHeroStyled = styled('div')(({ theme }) => ({
   '.hero-container': {
@@ -8,7 +9,7 @@ export const SpeakersHeroStyled = styled('div')(({ theme }) => ({
     display: 'flex',
     flexDirection: 'column',
     gap: '24px',
-    backgroundImage: 'url("/Sphere2026.png")',
+    backgroundImage: `url("${BASE_PATH}/Sphere2026.png")`,
     backgroundPosition: 'bottom right',
     backgroundRepeat: 'no-repeat',
     backgroundSize: ' 560px auto',
@@ -19,7 +20,7 @@ export const SpeakersHeroStyled = styled('div')(({ theme }) => ({
       paddingRight: '0px',
       alignItems: 'center',
       textAlign: 'center',
-      backgroundImage: 'url("/Sphere2026-half.png")',
+      backgroundImage: `url("${BASE_PATH}/Sphere2026-half.png")`,
       backgroundSize: '50%',
     },
     paddingTop: 'calc(var(--navbar-height, 0px) + 64px)',

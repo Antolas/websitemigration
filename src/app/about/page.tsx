@@ -22,6 +22,7 @@ import Faq from '@/components/sections/Faq';
 import LocationCard from '@/components/sections/LocationCard';
 import SponsorshipLightBanner from '@/components/sections/SponsorshipLightBanner';
 import about from '@content/pages/about.json';
+import { withBase } from '@/lib/base-path';
 
 export default function AboutPage() {
   const { hero, intro, video, venue, sustainability, impact, faqs } = about;
@@ -98,7 +99,7 @@ export default function AboutPage() {
           <div className="block-images-container">
             <div className="images-container">
               <div className="image-block">
-                <img src={venue.image} alt="info rooms" />
+                <img src={withBase(venue.image)} alt="info rooms" />
               </div>
               <div className="image-block">
                 <VenueMap src={venue.mapEmbedUrl} />
@@ -137,7 +138,7 @@ export default function AboutPage() {
         </div>
         <div className="sustainability-grid-container">
           <div className="sustainability-grid">
-            <img src={sustainability.logo} alt="Sustainability Logo" style={{ width: '100%' }} />
+            <img src={withBase(sustainability.logo)} alt="Sustainability Logo" style={{ width: '100%' }} />
           </div>
           <div className="sustainability-grid">
             {sustainability.paragraphs.map((p, i) => (

@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Icon from '@/components/common/Icon';
 import { theme as baseTheme } from '@/theme/theme';
 import { useEditionTheme } from '@/theme/useEditionTheme';
+import { withBase } from '@/lib/base-path';
 
 interface SocialButtonProps {
   /** Icon name in /public/icons/social-media-icons (x, linkedin, git, instagram, youtube, website, share). */
@@ -30,12 +31,12 @@ export default function SocialButton({
   const handleClick = async () => {
     if (handleLinkedInShare) {
       const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`;
-      window.open(url, '_blank');
+      window.open(withBase(url), '_blank');
     } else if (copyUrlOfPage) {
       await navigator.clipboard.writeText(location.href);
       setCopied(true);
     } else {
-      window.open(socialMediaUrl, '_blank');
+      window.open(withBase(socialMediaUrl), '_blank');
     }
   };
 

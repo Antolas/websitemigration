@@ -35,6 +35,7 @@ import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
 import LogoCard from '@/components/partners/LogoCard';
 import archiveData from '@content/archive/2024.json';
+import { withBase } from '@/lib/base-path';
 
 const archive = archiveData as {
   speakers: ArchiveSpeaker[];
@@ -463,7 +464,7 @@ export default function Edition2024Page() {
           </div>
         </div>
         <div style={{ textAlign: 'center' }}>
-          <AgendaPdfLink href="/pdf/agenda2024.pdf" />
+          <AgendaPdfLink href={withBase('/pdf/agenda2024.pdf')} />
         </div>
       </Tracks2024Styled>
       <Sustainability2024Styled>
@@ -479,7 +480,7 @@ export default function Edition2024Page() {
         </div>
         <div className="sustainability-grid-container">
           <div className="sustainability-grid">
-            <img src="/images/editions/sustainability2024.png" alt="Sustainability Logo" style={{ width: '100%' }} />
+            <img src={withBase('/images/editions/sustainability2024.png')} alt="Sustainability Logo" style={{ width: '100%' }} />
           </div>
           <div className="sustainability-grid">
             <Typography variant="bodyM" sx={{ color: '#5A6163' }} width="fit-content">
@@ -569,7 +570,7 @@ export default function Edition2024Page() {
         </ImpactNumbers2024Styled>
         <div className="impact-button">
           <Button
-            href="/pdf/Report_sustainability2024.pdf"
+            href={withBase('/pdf/Report_sustainability2024.pdf')}
             variant="contained"
             color="primary"
             endIcon={<Icon name="arrow-up-right.svg" />}

@@ -8,6 +8,7 @@ import { useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Icon from '@/components/common/Icon';
 import { theme } from '@/theme/theme';
+import { BASE_PATH, withBase } from '@/lib/base-path';
 
 export interface GalleryImage {
   orientation: 'horizontal' | 'vertical' | string;
@@ -18,7 +19,7 @@ export interface GalleryImage {
 }
 
 const GalleryStyled = styled('div')(({ theme }) => ({
-  background: "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
+  background: `url('${BASE_PATH}/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)`,
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
   padding: '40px',
@@ -186,7 +187,7 @@ function Lightbox({ open, closeModal, images, currentIndex, prevImage, nextImage
         </Box>
         <div className="image-wrapper">
           <img
-            src={current.image}
+            src={withBase(current.image)}
             alt={`Image ${currentIndex + 1}`}
             height="450px"
             style={{
@@ -238,7 +239,7 @@ export default function GalleryGrid({ gallery }: { gallery: GalleryImage[] }) {
   };
 
   const download = () => {
-    fetch(gallery[index].image).then((res) => {
+    fetch(withBase(gallery[index].image)).then((res) => {
       if (!res.ok) return;
       return res.blob().then((blob) => {
         const a = document.createElement('a');
@@ -263,7 +264,7 @@ export default function GalleryGrid({ gallery }: { gallery: GalleryImage[] }) {
               key={i}
             >
               <div className="innerImageWrapper">
-                <img src={item.image} alt={`Image ${i + 1}`} width="300px" className="galleryImage" />
+                <img src={withBase(item.image)} alt={`Image ${i + 1}`} width="300px" className="galleryImage" />
               </div>
             </div>
           ))}

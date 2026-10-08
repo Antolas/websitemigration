@@ -89,6 +89,19 @@ location / {
 error_page 404 /404.html;
 ```
 
+### GitHub Pages preview
+
+`.github/workflows/pages.yml` builds and deploys the site to GitHub Pages on every push to the main branch
+(and on demand from the Actions tab). The site is then served from a sub-path
+(`https://<owner>.github.io/<repo>/`), so the build runs with `NEXT_PUBLIC_BASE_PATH=/<repo>`; preview builds are
+marked `noindex` so they never compete with platmosphere.com. To try a sub-path build locally:
+
+```bash
+NEXT_PUBLIC_BASE_PATH=/websitemigration npm run build
+```
+
+One-time setup: *Settings → Pages → Build and deployment → Source: **GitHub Actions***.
+
 ## Migration notes
 
 The site was rebuilt from the production pages and bundles of platmosphere.com: layouts and styles were

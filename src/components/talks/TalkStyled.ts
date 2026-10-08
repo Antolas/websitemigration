@@ -1,6 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
+import { BASE_PATH } from '@/lib/base-path';
 
 export const InsideTheTalkBannerStyled = styled('div')(({ theme }) => ({
   paddingTop: 'calc(var(--navbar-height, 0px) + 69px)',
@@ -50,7 +51,7 @@ export const InsideTheTalkBannerStyled = styled('div')(({ theme }) => ({
 
 /** Dark hexagon background shared by talk and content-hub detail pages. */
 export const MainContentContainerStyled = styled('div')(({ theme }) => ({
-  background: "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
+  background: `url('${BASE_PATH}/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)`,
   color: '#FFF',
   padding: '80px 40px 0px 40px',
   display: 'flex',

@@ -6,6 +6,7 @@ import { styled } from '@mui/material/styles';
 import Image from '@/components/common/Image';
 import Icon from '@/components/common/Icon';
 import LayeredBackground from '@/components/common/LayeredBackground';
+import { withBase } from '@/lib/base-path';
 
 const SponsorshipLightBannerStyled = styled('div')(({ theme }) => ({
   background: theme.palette.grey[50],
@@ -67,7 +68,7 @@ export default function SponsorshipLightBanner() {
             <Button
               variant="contained"
               color="primary"
-              onClick={() => window.open('/become-a-sponsor', '_blank')}
+              onClick={() => window.open(withBase('/become-a-sponsor'), '_blank')}
               endIcon={<Icon name="arrow-up-right.svg" />}
             >
               Become a Sponsor

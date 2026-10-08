@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react';
+import { withBase } from '@/lib/base-path';
 
 interface IconProps {
   /** File name inside /public/icons (e.g. "arrow-right.svg"). */
@@ -10,7 +11,7 @@ interface IconProps {
 
 /** SVG icon rendered as a CSS mask so it inherits `currentColor`. */
 export default function Icon({ name, style, width, height }: IconProps) {
-  const url = `/icons/${name.replace(/^\/+/, '')}`;
+  const url = withBase(`/icons/${name.replace(/^\/+/, '')}`);
   return (
     <div
       style={{

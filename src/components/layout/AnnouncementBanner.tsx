@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Icon from '@/components/common/Icon';
 import { siteConfig } from '@/lib/site';
 import { useEditionTheme } from '@/theme/useEditionTheme';
+import { withBase } from '@/lib/base-path';
 
 const withProtocol = (url?: string) =>
   !url || url.startsWith('http://') || url.startsWith('https://') || url.startsWith('/') ? url : `https://${url}`;
@@ -61,7 +62,7 @@ export default function AnnouncementBanner({ onClose }: { onClose: () => void })
     >
       {hasLink ? (
         <Box
-          onClick={() => window.open(withProtocol(banner.linkButton), '_blank')}
+          onClick={() => window.open(withBase(withProtocol(banner.linkButton)), '_blank')}
           onMouseDown={() => setPressed(true)}
           onMouseUp={() => setPressed(false)}
           onMouseEnter={() => setHovered(true)}

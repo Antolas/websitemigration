@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import SocialButton from '@/components/buttons/SocialButton';
 import { useEditionTheme } from '@/theme/useEditionTheme';
+import { withBase } from '@/lib/base-path';
 
 const FooterStyled = styled('div')(({ theme }) => ({
   background: theme.palette.grey[900],
@@ -141,7 +142,7 @@ export default function Footer() {
         </div>
         <div>
           <a
-            href="/pdf/Privacy-Policy-Platmosphere.com_.pdf"
+            href={withBase('/pdf/Privacy-Policy-Platmosphere.com_.pdf')}
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'underline', color: 'white' }}
@@ -157,7 +158,7 @@ export default function Footer() {
         </div>
         <div>
           <a
-            href="/pdf/Platmosphere-Terms-Conditions.pdf"
+            href={withBase('/pdf/Platmosphere-Terms-Conditions.pdf')}
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'underline', color: 'white' }}

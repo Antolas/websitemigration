@@ -11,6 +11,7 @@ import type { ReactNode } from 'react';
 import Icon from '@/components/common/Icon';
 import LinkButton from './LinkButton';
 import WhiteButton from './WhiteButton';
+import { withBase } from '@/lib/base-path';
 
 /** Outlined (secondary) button with →, navigating inside the site. e.g. "Meet Our Speakers". */
 export function SecondaryNavButton({ href, children, iconSize = 20 }: { href: string; children: ReactNode; iconSize?: number }) {
@@ -66,7 +67,7 @@ export function WhiteLinkButton({
 }) {
   return (
     <div style={{ paddingTop: '24px' }}>
-      <WhiteButton onClick={() => window.open(href, target)} endIcon={<Icon name={iconName} />}>
+      <WhiteButton onClick={() => window.open(withBase(href), target)} endIcon={<Icon name={iconName} />}>
         {label}
       </WhiteButton>
     </div>
@@ -86,7 +87,7 @@ export function ExternalTextLink({
   icon?: string;
 }) {
   return (
-    <LinkButton darkMode={darkMode} onClick={() => window.open(href, '_blank')} icon={icon}>
+    <LinkButton darkMode={darkMode} onClick={() => window.open(withBase(href), '_blank')} icon={icon}>
       {children}
     </LinkButton>
   );
@@ -115,7 +116,7 @@ export function InternalTextLink({
 /** "Watch video recap ↗" link on dark sections. */
 export function WatchRecapLink({ href, label }: { href: string; label: string }) {
   return (
-    <LinkButton onClick={() => window.open(href, '_blank')} icon="arrow-up-right.svg" darkMode>
+    <LinkButton onClick={() => window.open(withBase(href), '_blank')} icon="arrow-up-right.svg" darkMode>
       <Typography variant="bodySAlt">{label}</Typography>
     </LinkButton>
   );

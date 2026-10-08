@@ -2,7 +2,11 @@
 
 import { Player } from '@lottiefiles/react-lottie-player';
 import { useEffect, useRef, useState } from 'react';
-import animation from '@/animations/sphere-divider.json';
+import animationData from '@/animations/sphere-divider.json';
+import { withBase } from '@/lib/base-path';
+
+// Lottie resolves its images from `assets[].u`, so prefix them for sub-path deployments.
+const animation = { ...animationData, assets: animationData.assets.map((a) => ('u' in a ? { ...a, u: withBase(a.u) } : a)) };
 
 /** Falling-sphere divider animation: replays each time it scrolls into view while scrolling down. */
 export default function SphereDivider({ background }: { background?: string }) {

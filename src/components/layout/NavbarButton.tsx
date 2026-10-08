@@ -11,6 +11,7 @@ import TextHighlighted from '@/components/common/TextHighlighted';
 import { getNavButton } from '@/lib/site';
 import { theme as baseTheme } from '@/theme/theme';
 import { useEditionTheme } from '@/theme/useEditionTheme';
+import { withBase } from '@/lib/base-path';
 
 function NavButtonBase({ sx, children, ...props }: ButtonProps) {
   const theme = useEditionTheme();
@@ -62,7 +63,7 @@ function NavLinkItem({ route = '', text, selected, externalRoute = false, icon }
   };
 
   return (
-    <NavButtonBase onClick={() => (externalRoute ? window.open(route, '_blank') : navigate())}>
+    <NavButtonBase onClick={() => (externalRoute ? window.open(withBase(route), '_blank') : navigate())}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: baseTheme.palette.grey[900] }}>
         <TextHighlighted variant={selected ? 'bodyStickyNavBarSelected' : 'bodyStickyNavBar'} disableHighlight={!selected}>
           {text}

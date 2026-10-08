@@ -25,7 +25,11 @@ npm run build             # must pass before committing; output in out/
    logos, FAQ entries sorted by `order`).
 4. Use `@/components/common/Image` (not `next/image` directly) and `@/components/common/Icon` for SVG icons in
    `public/icons`.
-5. Never commit secrets. Third-party ids (HubSpot portal/form ids, GTM id, Google Maps embed key) are public
+5. **Never hard-code root-relative URLs outside `<Image>`/`<Link>`/`router.push`.** The site can be served from a
+   sub-path (GitHub Pages preview). Wrap paths in `withBase()` (plain `<img>`, `<a href>`, `window.open`, `fetch`)
+   and use `${BASE_PATH}` in CSS `url()` – both from `@/lib/base-path`. Check with
+   `NEXT_PUBLIC_BASE_PATH=/websitemigration npm run build`.
+6. Never commit secrets. Third-party ids (HubSpot portal/form ids, GTM id, Google Maps embed key) are public
    identifiers already present in the original site.
 
 ## Content model (`content/`)

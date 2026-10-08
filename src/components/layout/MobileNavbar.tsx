@@ -17,6 +17,7 @@ import WhiteButton from '@/components/buttons/WhiteButton';
 import Icon from '@/components/common/Icon';
 import { getNavButton, type NavButton } from '@/lib/site';
 import { useEditionTheme } from '@/theme/useEditionTheme';
+import { withBase } from '@/lib/base-path';
 
 const Drawer = styled(SwipeableDrawer)(({ theme }) => ({
   zIndex: 1400,
@@ -151,7 +152,7 @@ export default function MobileNavbar(_props: { callForPapersUrl?: string }) {
                 ) : item.type === 'tab' ? (
                   <>
                     <ListItem disablePadding>
-                      <ListItemButton onClick={() => window.open(item.link, '_blank')}>
+                      <ListItemButton onClick={() => window.open(withBase(item.link), '_blank')}>
                         <ListItemText
                           sx={{ textAlign: 'left' }}
                           primary={
@@ -181,7 +182,7 @@ export default function MobileNavbar(_props: { callForPapersUrl?: string }) {
         </div>
         <div className="register-button" style={{ width: '100%' }}>
           <WhiteButton
-            onClick={() => (cta.type === 'tab' ? window.open(cta.link, '_blank') : router.push(cta.link!))}
+            onClick={() => (cta.type === 'tab' ? window.open(withBase(cta.link), '_blank') : router.push(cta.link!))}
             endIcon={<Icon name={cta.type === 'navigate' ? 'arrow-right.svg' : 'arrow-up-right.svg'} />}
             style={{ width: '100%' }}
           >

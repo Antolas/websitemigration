@@ -1,6 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
+import { BASE_PATH } from '@/lib/base-path';
 
 export const GalleryHeroStyled = styled('div')(({ theme }) => ({
   background: theme.palette.grey[50],
@@ -11,7 +12,7 @@ export const GalleryHeroStyled = styled('div')(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   gap: '24px',
-  backgroundImage: 'url("/Sphere2026.png")',
+  backgroundImage: `url("${BASE_PATH}/Sphere2026.png")`,
   backgroundPosition: 'bottom right',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '560px auto',
@@ -19,7 +20,7 @@ export const GalleryHeroStyled = styled('div')(({ theme }) => ({
   textAlign: 'center',
   [theme.breakpoints.down('sm')]: {
     paddingTop: 'calc(var(--navbar-height, 0px) + 64px)',
-    backgroundImage: 'url("/Sphere2026-half.png")',
+    backgroundImage: `url("${BASE_PATH}/Sphere2026-half.png")`,
     backgroundSize: '50%',
   },
   '.text-container': { display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '24px' },

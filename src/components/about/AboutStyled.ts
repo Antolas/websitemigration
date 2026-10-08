@@ -1,6 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
+import { BASE_PATH } from '@/lib/base-path';
 
 export const AboutHeroStyled = styled('div')(({ theme }) => ({
   background: theme.palette.grey[50],
@@ -11,7 +12,7 @@ export const AboutHeroStyled = styled('div')(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   gap: '24px',
-  backgroundImage: 'url("/Sphere2026.png")',
+  backgroundImage: `url("${BASE_PATH}/Sphere2026.png")`,
   backgroundPosition: 'bottom right',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '560px auto',
@@ -22,7 +23,7 @@ export const AboutHeroStyled = styled('div')(({ theme }) => ({
     paddingRight: '0px',
     alignItems: 'center',
     textAlign: 'center',
-    backgroundImage: 'url("/Sphere2026-half.png")',
+    backgroundImage: `url("${BASE_PATH}/Sphere2026-half.png")`,
     backgroundSize: '50%',
   },
   '.header': { display: 'flex', flexDirection: 'column', gap: '0.5em', [theme.breakpoints.down('sm')]: { flexDirection: 'row' } },
@@ -39,7 +40,7 @@ export const AboutHeroStyled = styled('div')(({ theme }) => ({
 }));
 
 export const AboutEmotionalVideoStyled = styled('div')(({ theme }) => ({
-  background: "url('/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)",
+  background: `url('${BASE_PATH}/PatternHexagons.png') center center / 100% no-repeat,\n      linear-gradient(123deg, #003140 19.13%, #001015 105.03%)`,
   paddingBottom: '80px',
   display: 'flex',
   flexDirection: 'column',

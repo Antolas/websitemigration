@@ -3,6 +3,7 @@
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import Icon from '@/components/common/Icon';
+import { withBase } from '@/lib/base-path';
 
 const ContentHubDetailVideoStyled = styled('div')(({ theme }) => ({
   background: theme.palette.grey[900],
@@ -57,7 +58,7 @@ export function DownloadSlidesButton({ slideURL = '' }: { slideURL?: string }) {
     <Button
       variant="contained"
       endIcon={<Icon name="arrow-up-right.svg" height={20} width={20} />}
-      onClick={() => window.open(slideURL, '_blank')}
+      onClick={() => window.open(withBase(slideURL), '_blank')}
       color="secondary"
       component="a"
       target="_blank"

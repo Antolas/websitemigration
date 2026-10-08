@@ -2,6 +2,7 @@
 
 /* Styles of the /2024 archive page (palette comes from EditionThemeProvider). */
 import { styled } from '@mui/material/styles';
+import { BASE_PATH } from '@/lib/base-path';
 
 export const ContactBanner2024Styled = styled('div')(({ theme }) => ({
   background: theme.palette.primary['900'],
@@ -60,7 +61,7 @@ export const EmotionalVideo2024Styled = styled('div')(({ theme }) => ({
 }));
 
 export const Gallery2024Styled = styled('div')(({ theme }) => ({
-  backgroundImage: `url(/images/editions/galleryBackground2024.png)`,
+  backgroundImage: `url(${BASE_PATH}/images/editions/galleryBackground2024.png)`,
   backgroundPosition: 'center center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
@@ -71,7 +72,7 @@ export const Gallery2024Styled = styled('div')(({ theme }) => ({
   gap: '64px',
   alignItems: 'center',
   [theme.breakpoints.down('sm')]: {
-    backgroundImage: `url(/images/editions/galleryBackground2024Mobile.png)`,
+    backgroundImage: `url(${BASE_PATH}/images/editions/galleryBackground2024Mobile.png)`,
   },
   '.gallery-description': {
     padding: '100px 10px 0px 10px',

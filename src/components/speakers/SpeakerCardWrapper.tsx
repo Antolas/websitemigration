@@ -15,6 +15,7 @@ import Icon from '@/components/common/Icon';
 import type { Speaker, TalkLink } from '@/lib/content';
 import type { Edition } from '@/theme/palettes';
 import { getTheme } from '@/theme/theme';
+import { withBase } from '@/lib/base-path';
 
 type SpeakerWithTalks = Speaker & { talks?: TalkLink[] };
 
@@ -111,7 +112,7 @@ function TalksAndBio({ speaker, bioVariant, edition }: { speaker: SpeakerWithTal
             {speaker.talks.map((talk, i) => (
               <MuiLink
                 key={i}
-                href={talk.href}
+                href={withBase(talk.href)}
                 {...(talk.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 underline="always"
                 sx={{
